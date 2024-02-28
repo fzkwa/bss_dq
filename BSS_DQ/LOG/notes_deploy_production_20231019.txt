@@ -1,0 +1,109 @@
+catatan deploy production batch ods 2023-10-10 21:30
+
+1. ms_pepdata
+
+usernya diubah
+dari
+user: odss
+password: Sahabat2
+
+menjadi 
+user: pep
+password: Sahabat3
+
+2. itm 
+port nya diubah menjadi dari port 29 menjadi port 22
+
+3. info koneksi yg masih belum dapat
+- aro (ip, port, credentials)
+- t24 (credentials)
+
+4. sementara kalau aro blum bisa didapat dalam waktu dekat, ingin disable di job batch daily
+
+5. sisanya success deployed
+
+catatan dev
+
+1. job master sftp belum ditambah port context nya --> perlu build ulang --> apply di job datamap (done)
+
+
+2. table hist t_log_nrt dirubah jadi t_log_nrt_hist krn bugs apps --> ubah store procedure histnya (done)
+
+
+
+PRODUCTION ENVI
+
+ODS APPS
+
+IP: 10.195.234.168
+
+ODS DB
+
+IP : 10.195.234.169
+User: postgres
+Password: Sahabat1!
+Port: 5432
+
+ODS DB NRT
+
+IP: 10.195.234.169
+User: fmsmrt
+Password: Sahabat1!
+Port: 5432
+Table: landing.t_log_nrt
+
+FMS DB
+
+IP: 10.195.234.167
+instance=mssqlserver2019
+db : fmsdb_bss
+User: userODS
+Password: P@ssw0rd
+
+T24
+
+IP: 10.195.20.94
+User: sftpodsprod
+Password: ods1234!
+Port: 29
+
+ITM
+
+IP: 10.195.234.12
+User: ODS
+Password: Sahabat1!
+Port: 22
+
+ARO
+IP: 10.195.20.84
+User: bankoper
+Password: B$$oper2023!
+Port: 29
+
+CSC
+IP: 10.195.234.120
+User: ods
+Password: Sahabat2
+Port: 1433
+
+MS_PEPDATA
+IP: 10.195.234.120
+User: pep
+Password: Sahabat3
+Port: 1433
+
+Credentials IP, User, Password, Port udah dapat semua ya. 
+
+hasil test status koneksi:
+
+- Server Apps ODS ke server DB ODS port 5432 (sukses)
+- Server Apps ODS ke server DB FMSNAWADATA port 1433 (sukses)
+- Server Apps ODS ke server T24 port 29 (masih RTO)
+- Server Apps ODS ke server ARO port 29 (masih RTO)
+- Server Apps ODS ke server CSC (sukses)
+- Server Apps ODS ke server MS_PEPDATA (sukses)
+
+2023-10-23
+
+t24 & aro sudah didapat credentialsnya. namun masih kendala akses ke port masing2 dari server apps ods --> perlu di update di job dev
+

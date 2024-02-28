@@ -1,0 +1,60 @@
+DEVELOPMENT ENVI
+
+ODS APPS
+
+IP: 10.196.240.80
+
+ODS DB
+
+IP : 10.196.240.81
+User: postgres
+Password: Sahabat1!
+Port: 5432
+
+ODS DB NRT
+
+IP: 10.196.240.81
+User: fmsmrt
+Password: Sahabat1!
+Port: 5432
+Table: landing.t_log_nrt
+
+FMS DB
+
+IP: 10.196.240.79
+instance=mssqlserver2019
+db : fmsdb_bss
+User: userODS
+Password: P@ssw0rd
+
+T24
+
+IP: 10.196.20.24
+User: sftpsampdev
+Password: samp523!
+Port: 22
+
+ITM
+
+IP: 10.196.240.30
+User: FMS
+Password: Sahabat1!
+Port: 22
+
+ARO
+IP: 10.196.20.89
+User: bank.opr
+Password: B$S2021#
+Port: 22
+
+CSC
+IP: 10.196.242.21
+User: odsuser
+Password: 0dsP4ss123
+Port: 1433
+
+MS_PEPDATA
+IP: 10.196.242.21
+User: odsuser
+Password: 0dsP4ss123
+Port: 1433

@@ -1,0 +1,1682 @@
+.-------------+---------------.
+|          tLogRow_1          |
+|=------------+--------------=|
+|parameter_key|parameter_value|
+|=------------+--------------=|
+|batch_date   |20230731       |
+'-------------+---------------'
+
+tContextLoad_1 set key "batch_date" with value "20230731"
+file [20230731.ST.ACCOUNT.CLOSED.csv] downloaded successfully.
+file [20230731.ST.ACCOUNT.CLOSURE.csv] downloaded successfully.
+file [20230731.ST.ACCOUNT.CREDIT.INT.csv] downloaded successfully.
+file [20230731.ST.ACCOUNT.csv] downloaded successfully.
+file [20230731.ST.ACCOUNT.PRK.csv] downloaded successfully.
+file [20230731.ST.CATEG.ENTRY.csv] downloaded successfully.
+file [20230731.ST.CATEGORY.csv] downloaded successfully.
+file [20230731.ST.COLLATERAL.csv] downloaded successfully.
+file [20230731.ST.COLLATERAL.RIGHT.csv] downloaded successfully.
+file [20230731.ST.COMPANY.csv] downloaded successfully.
+file [20230731.ST.CURRENCY.csv] downloaded successfully.
+file [20230731.ST.CUSTOMER.csv] downloaded successfully.
+file [20230731.ST.DE.ADDRESS.csv] downloaded successfully.
+file [20230731.ST.EB.CONTRACT.BALANCES.csv] downloaded successfully.
+file [20230731.ST.FUNDS.TRANSFER.csv] downloaded successfully.
+file [20230731.ST.KYC.SUMBER.DANA.csv] downloaded successfully.
+file [20230731.ST.LBU.SEKTOR.ECONOMY.csv] downloaded successfully.
+file [20230731.ST.LD.csv] downloaded successfully.
+file [20230731.ST.LD.SUB.PRODUCT.csv] downloaded successfully.
+file [20230731.ST.LIMIT.csv] downloaded successfully.
+file [20230731.ST.MD.DEAL.csv] downloaded successfully.
+file [20230731.ST.PD.csv] downloaded successfully.
+file [20230731.ST.PD.PAYMENT.DUE.csv] downloaded successfully.
+file [20230731.ST.RE.CONSOL.SPEC.ENTRY.csv] downloaded successfully.
+file [20230731.ST.RE.STAT.LINE.BAL.csv] downloaded successfully.
+file [20230731.ST.RE.STAT.REP.LINE.csv] downloaded successfully.
+file [20230731.ST.REPO.csv] downloaded successfully.
+file [20230731.ST.SC.TRADING.POSITION.csv] downloaded successfully.
+file [20230731.ST.SEC.ACC.MASTER.csv] downloaded successfully.
+file [20230731.ST.SEC.TRADE.csv] downloaded successfully.
+file [20230731.ST.SECTOR.csv] downloaded successfully.
+file [20230731.ST.SECURITY.MASTER.csv] downloaded successfully.
+file [20230731.ST.SECURITY.POSITION.csv] downloaded successfully.
+file [20230731.ST.STMT.ENTRY.csv] downloaded successfully.
+file [20230731.ST.STMT.ENTRY.DETAIL.csv] downloaded successfully.
+file [20230731.ST.TELLER.TRANSACTION.csv] downloaded successfully.
+file [20230731.ST.TRANSACTION.csv] downloaded successfully.
+file [20230731.ST.TRANSACTION.TELLER.csv] downloaded successfully.
+.---------------------------+----------.
+|               Monitor                |
+|=--------------------------+---------=|
+|JOB_NAME                   |BATCH_DATE|
+|=--------------------------+---------=|
+|J_EXTRACT_SFTP_T24_CSV_LOOP|20230731  |
+'---------------------------+----------'
+
+.----------------------------+--------+----------+-------------------.
+|                              Monitor                               |
+|=---------------------------+--------+----------+------------------=|
+|JOB_NAME                    |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_ACCOUNT_CLOSED|112536  |20230731  |2023-10-19 12:17:57|
+'----------------------------+--------+----------+-------------------'
+
+.-----------------------------+--------+----------+-------------------.
+|                               Monitor                               |
+|=----------------------------+--------+----------+------------------=|
+|JOB_NAME                     |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=----------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_ACCOUNT_CLOSURE|336     |20230731  |2023-10-19 12:17:58|
+'-----------------------------+--------+----------+-------------------'
+
+.--------------------------------+--------+----------+-------------------.
+|                                Monitor                                 |
+|=-------------------------------+--------+----------+------------------=|
+|JOB_NAME                        |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-------------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_ACCOUNT_CREDIT_INT|156     |20230731  |2023-10-19 12:17:58|
+'--------------------------------+--------+----------+-------------------'
+
+.-------------------------+--------+----------+-------------------.
+|                             Monitor                             |
+|=------------------------+--------+----------+------------------=|
+|JOB_NAME                 |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_ACCOUNT_PRK|5026    |20230731  |2023-10-19 12:17:59|
+'-------------------------+--------+----------+-------------------'
+
+.---------------------+--------+----------+-------------------.
+|                           Monitor                           |
+|=--------------------+--------+----------+------------------=|
+|JOB_NAME             |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=--------------------+--------+----------+------------------=|
+|J_LANDING_BSS_ACCOUNT|58217   |20230731  |2023-10-19 12:18:20|
+'---------------------+--------+----------+-------------------'
+
+.-------------------------+--------+----------+-------------------.
+|                             Monitor                             |
+|=------------------------+--------+----------+------------------=|
+|JOB_NAME                 |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_CATEG_ENTRY|89117   |20230731  |2023-10-19 12:18:33|
+'-------------------------+--------+----------+-------------------'
+
+.----------------------+--------+----------+-------------------.
+|                           Monitor                            |
+|=---------------------+--------+----------+------------------=|
+|JOB_NAME              |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------+--------+----------+------------------=|
+|J_LANDING_BSS_CATEGORY|2351    |20230731  |2023-10-19 12:18:36|
+'----------------------+--------+----------+-------------------'
+
+.------------------------------+--------+----------+-------------------.
+|                               Monitor                                |
+|=-----------------------------+--------+----------+------------------=|
+|JOB_NAME                      |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-----------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_COLLATERAL_RIGHT|17132   |20230731  |2023-10-19 12:18:40|
+'------------------------------+--------+----------+-------------------'
+
+.------------------------+--------+----------+-------------------.
+|                            Monitor                             |
+|=-----------------------+--------+----------+------------------=|
+|JOB_NAME                |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-----------------------+--------+----------+------------------=|
+|J_LANDING_BSS_COLLATERAL|23959   |20230731  |2023-10-19 12:18:44|
+'------------------------+--------+----------+-------------------'
+
+.---------------------+--------+----------+-------------------.
+|                           Monitor                           |
+|=--------------------+--------+----------+------------------=|
+|JOB_NAME             |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=--------------------+--------+----------+------------------=|
+|J_LANDING_BSS_COMPANY|31      |20230731  |2023-10-19 12:18:46|
+'---------------------+--------+----------+-------------------'
+
+.----------------------+--------+----------+-------------------.
+|                           Monitor                            |
+|=---------------------+--------+----------+------------------=|
+|JOB_NAME              |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------+--------+----------+------------------=|
+|J_LANDING_BSS_CURRENCY|45      |20230731  |2023-10-19 12:18:46|
+'----------------------+--------+----------+-------------------'
+
+.----------------------+--------+----------+-------------------.
+|                           Monitor                            |
+|=---------------------+--------+----------+------------------=|
+|JOB_NAME              |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------+--------+----------+------------------=|
+|J_LANDING_BSS_CUSTOMER|101620  |20230731  |2023-10-19 12:19:36|
+'----------------------+--------+----------+-------------------'
+
+.------------------------+--------+----------+-------------------.
+|                            Monitor                             |
+|=-----------------------+--------+----------+------------------=|
+|JOB_NAME                |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-----------------------+--------+----------+------------------=|
+|J_LANDING_BSS_DE_ADDRESS|252339  |20230731  |2023-10-19 12:19:54|
+'------------------------+--------+----------+-------------------'
+
+.----------------------------------+--------+----------+-------------------.
+|                                 Monitor                                  |
+|=---------------------------------+--------+----------+------------------=|
+|JOB_NAME                          |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_EB_CONTRACT_BALANCES|146116  |20230731  |2023-10-19 12:20:07|
+'----------------------------------+--------+----------+-------------------'
+
+.----------------------------+--------+----------+-------------------.
+|                              Monitor                               |
+|=---------------------------+--------+----------+------------------=|
+|JOB_NAME                    |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_FUNDS_TRANSFER|109995  |20230731  |2023-10-19 12:20:27|
+'----------------------------+--------+----------+-------------------'
+
+.-----------------------------+--------+----------+-------------------.
+|                               Monitor                               |
+|=----------------------------+--------+----------+------------------=|
+|JOB_NAME                     |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=----------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_KYC_SUMBER_DANA|6       |20230731  |2023-10-19 12:20:29|
+'-----------------------------+--------+----------+-------------------'
+
+.--------------------------------+--------+----------+-------------------.
+|                                Monitor                                 |
+|=-------------------------------+--------+----------+------------------=|
+|JOB_NAME                        |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-------------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_LBU_SEKTOR_ECONOMY|474     |20230731  |2023-10-19 12:20:31|
+'--------------------------------+--------+----------+-------------------'
+
+.----------------+--------+----------+-------------------.
+|                        Monitor                         |
+|=---------------+--------+----------+------------------=|
+|JOB_NAME        |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------+--------+----------+------------------=|
+|J_LANDING_BSS_LD|7587    |20230731  |2023-10-19 12:20:33|
+'----------------+--------+----------+-------------------'
+
+.-------------------+--------+----------+-------------------.
+|                          Monitor                          |
+|=------------------+--------+----------+------------------=|
+|JOB_NAME           |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=------------------+--------+----------+------------------=|
+|J_LANDING_BSS_LIMIT|12752   |20230731  |2023-10-19 12:20:40|
+'-------------------+--------+----------+-------------------'
+
+.---------------------+--------+----------+-------------------.
+|                           Monitor                           |
+|=--------------------+--------+----------+------------------=|
+|JOB_NAME             |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=--------------------+--------+----------+------------------=|
+|J_LANDING_BSS_MD_DEAL|1       |20230731  |2023-10-19 12:20:42|
+'---------------------+--------+----------+-------------------'
+
+.----------------------------+--------+----------+-------------------.
+|                              Monitor                               |
+|=---------------------------+--------+----------+------------------=|
+|JOB_NAME                    |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_PD_PAYMENT_DUE|5440    |20230731  |2023-10-19 12:20:43|
+'----------------------------+--------+----------+-------------------'
+
+.----------------+--------+----------+-------------------.
+|                        Monitor                         |
+|=---------------+--------+----------+------------------=|
+|JOB_NAME        |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------+--------+----------+------------------=|
+|J_LANDING_BSS_PD|5440    |20230731  |2023-10-19 12:20:45|
+'----------------+--------+----------+-------------------'
+
+.----------------------------------+--------+----------+-------------------.
+|                                 Monitor                                  |
+|=---------------------------------+--------+----------+------------------=|
+|JOB_NAME                          |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_RE_CONSOL_SPEC_ENTRY|65339   |20230731  |2023-10-19 12:20:52|
+'----------------------------------+--------+----------+-------------------'
+
+.------------------+--------+----------+-------------------.
+|                         Monitor                          |
+|=-----------------+--------+----------+------------------=|
+|JOB_NAME          |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-----------------+--------+----------+------------------=|
+|J_LANDING_BSS_REPO|47      |20230731  |2023-10-19 12:20:53|
+'------------------+--------+----------+-------------------'
+
+.------------------------------+--------+----------+-------------------.
+|                               Monitor                                |
+|=-----------------------------+--------+----------+------------------=|
+|JOB_NAME                      |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-----------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_RE_STAT_REP_LINE|1618    |20230731  |2023-10-19 12:20:54|
+'------------------------------+--------+----------+-------------------'
+
+.------------------------------+--------+----------+-------------------.
+|                               Monitor                                |
+|=-----------------------------+--------+----------+------------------=|
+|JOB_NAME                      |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-----------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_RE_STAT_LINE_BAL|16791   |20230731  |2023-10-19 12:20:55|
+'------------------------------+--------+----------+-------------------'
+
+.-----------------------+--------+----------+-------------------.
+|                            Monitor                            |
+|=----------------------+--------+----------+------------------=|
+|JOB_NAME               |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=----------------------+--------+----------+------------------=|
+|J_LANDING_BSS_SEC_TRADE|156     |20230731  |2023-10-19 12:20:56|
+'-----------------------+--------+----------+-------------------'
+
+.----------------------------+--------+----------+-------------------.
+|                              Monitor                               |
+|=---------------------------+--------+----------+------------------=|
+|JOB_NAME                    |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_SEC_ACC_MASTER|12      |20230731  |2023-10-19 12:20:56|
+'----------------------------+--------+----------+-------------------'
+
+.---------------------------------+--------+----------+-------------------.
+|                                 Monitor                                 |
+|=--------------------------------+--------+----------+------------------=|
+|JOB_NAME                         |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=--------------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_SC_TRADING_POSITION|154     |20230731  |2023-10-19 12:20:57|
+'---------------------------------+--------+----------+-------------------'
+
+.--------------------+--------+----------+-------------------.
+|                          Monitor                           |
+|=-------------------+--------+----------+------------------=|
+|JOB_NAME            |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-------------------+--------+----------+------------------=|
+|J_LANDING_BSS_SECTOR|53      |20230731  |2023-10-19 12:20:57|
+'--------------------+--------+----------+-------------------'
+
+.-----------------------------+--------+----------+-------------------.
+|                               Monitor                               |
+|=----------------------------+--------+----------+------------------=|
+|JOB_NAME                     |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=----------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_SECURITY_MASTER|929     |20230731  |2023-10-19 12:20:57|
+'-----------------------------+--------+----------+-------------------'
+
+.-------------------------------+--------+----------+-------------------.
+|                                Monitor                                |
+|=------------------------------+--------+----------+------------------=|
+|JOB_NAME                       |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=------------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_SECURITY_POSITION|1723    |20230731  |2023-10-19 12:20:57|
+'-------------------------------+--------+----------+-------------------'
+
+.--------------------------------+--------+----------+-------------------.
+|                                Monitor                                 |
+|=-------------------------------+--------+----------+------------------=|
+|JOB_NAME                        |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-------------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_TELLER_TRANSACTION|94      |20230731  |2023-10-19 12:20:58|
+'--------------------------------+--------+----------+-------------------'
+
+.------------------------+--------+----------+-------------------.
+|                            Monitor                             |
+|=-----------------------+--------+----------+------------------=|
+|JOB_NAME                |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-----------------------+--------+----------+------------------=|
+|J_LANDING_BSS_STMT_ENTRY|606934  |20230731  |2023-10-19 12:22:01|
+'------------------------+--------+----------+-------------------'
+
+.-------------------------------+--------+----------+-------------------.
+|                                Monitor                                |
+|=------------------------------+--------+----------+------------------=|
+|JOB_NAME                       |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=------------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_STMT_ENTRY_DETAIL|35669   |20230731  |2023-10-19 12:22:05|
+'-------------------------------+--------+----------+-------------------'
+
+.--------------------------------+--------+----------+-------------------.
+|                                Monitor                                 |
+|=-------------------------------+--------+----------+------------------=|
+|JOB_NAME                        |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-------------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_TRANSACTION_TELLER|451     |20230731  |2023-10-19 12:22:06|
+'--------------------------------+--------+----------+-------------------'
+
+.-------------------------+--------+----------+-------------------.
+|                             Monitor                             |
+|=------------------------+--------+----------+------------------=|
+|JOB_NAME                 |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_TRANSACTION|783     |20230731  |2023-10-19 12:22:07|
+'-------------------------+--------+----------+-------------------'
+
+.----------------------------+--------+----------+-------------------.
+|                              Monitor                               |
+|=---------------------------+--------+----------+------------------=|
+|JOB_NAME                    |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------------+--------+----------+------------------=|
+|J_LANDING_BSS_LD_SUB_PRODUCT|151     |20230731  |2023-10-19 12:22:07|
+'----------------------------+--------+----------+-------------------'
+
+
+.------------------------------+--------+----------+-------------------.
+|                               Monitor                                |
+|=-----------------------------+--------+----------+------------------=|
+|JOB_NAME                      |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-----------------------------+--------+----------+------------------=|
+|J_LANDING_MS_PEPDATA_PEPSTATUS|19      |20230731  |2023-10-19 12:22:09|
+'------------------------------+--------+----------+-------------------'
+
+.--------------------------------------+--------+----------+-------------------.
+|                                   Monitor                                    |
+|=-------------------------------------+--------+----------+------------------=|
+|JOB_NAME                              |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-------------------------------------+--------+----------+------------------=|
+|J_LANDING_MS_PEPDATA_PEPSTATUSSERVICES|422     |20230731  |2023-10-19 12:22:10|
+'--------------------------------------+--------+----------+-------------------'
+
+.---------------------------------+--------+----------+-------------------.
+|                                 Monitor                                 |
+|=--------------------------------+--------+----------+------------------=|
+|JOB_NAME                         |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=--------------------------------+--------+----------+------------------=|
+|J_LANDING_MS_PEPDATA_PEPSTATUSWEB|27      |20230731  |2023-10-19 12:22:10|
+'---------------------------------+--------+----------+-------------------'
+
+.----------------------+--------+----------+-------------------.
+|                           Monitor                            |
+|=---------------------+--------+----------+------------------=|
+|JOB_NAME              |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------+--------+----------+------------------=|
+|J_LANDING_CSC_DHN_DATA|15865   |20230731  |2023-10-19 12:22:14|
+'----------------------+--------+----------+-------------------'
+
+.------------------------+--------+----------+-------------------.
+|                            Monitor                             |
+|=-----------------------+--------+----------+------------------=|
+|JOB_NAME                |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-----------------------+--------+----------+------------------=|
+|J_LANDING_CSC_DPPSM_DATA|477     |20230731  |2023-10-19 12:22:15|
+'------------------------+--------+----------+-------------------'
+
+.------------------------+--------+----------+-------------------.
+|                            Monitor                             |
+|=-----------------------+--------+----------+------------------=|
+|JOB_NAME                |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-----------------------+--------+----------+------------------=|
+|J_LANDING_CSC_DTTOT_DATA|135326  |20230731  |2023-10-19 12:22:26|
+'------------------------+--------+----------+-------------------'
+
+tContextLoad_1 set key "batch_date" with value "20230731"
+file [temp_cif.csv] downloaded successfully.
+file [temp_loan.csv] downloaded successfully.
+file [disburse.csv] downloaded successfully.
+.---------------------------+----------.
+|               Monitor                |
+|=--------------------------+---------=|
+|JOB_NAME                   |BATCH_DATE|
+|=--------------------------+---------=|
+|J_EXTRACT_SFTP_ARO_CSV_LOOP|20230731  |
+'---------------------------+----------'
+
+.----------------------+--------+----------+-------------------.
+|                           Monitor                            |
+|=---------------------+--------+----------+------------------=|
+|JOB_NAME              |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------+--------+----------+------------------=|
+|J_LANDING_ARO_DISBURSE|1614    |20230731  |2023-10-19 12:22:44|
+'----------------------+--------+----------+-------------------'
+
+.----------------------+--------+----------+-------------------.
+|                           Monitor                            |
+|=---------------------+--------+----------+------------------=|
+|JOB_NAME              |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------+--------+----------+------------------=|
+|J_LANDING_ARO_TEMP_CIF|127590  |20230731  |2023-10-19 12:23:10|
+'----------------------+--------+----------+-------------------'
+
+.-----------------------+--------+----------+-------------------.
+|                            Monitor                            |
+|=----------------------+--------+----------+------------------=|
+|JOB_NAME               |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=----------------------+--------+----------+------------------=|
+|J_LANDING_ARO_TEMP_LOAN|126068  |20230731  |2023-10-19 12:23:26|
+'-----------------------+--------+----------+-------------------'
+
+
+file [ZCMSCHXP.CSV] downloaded successfully.
+file [ZCMSCEXP.CSV] downloaded successfully.
+file [ZTTYPR0P.CSV] downloaded successfully.
+file [ZRSPCD0P.CSV] downloaded successfully.
+file [ZCDBAC0P.CSV] downloaded successfully.
+file [AMCHTB0P.CSV] downloaded successfully.
+file [ADCMED0P.CSV] downloaded successfully.
+file [ZCMSST0P.CSV] downloaded successfully.
+.----------------------+----------.
+|             Monitor             |
+|=---------------------+---------=|
+|JOB_NAME              |BATCH_DATE|
+|=---------------------+---------=|
+|J_EXTRACT_SFTP_ITM_CSV|20230731  |
+'----------------------+----------'
+
+.----------------------+--------+----------+-------------------.
+|                           Monitor                            |
+|=---------------------+--------+----------+------------------=|
+|JOB_NAME              |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------+--------+----------+------------------=|
+|J_LANDING_ITM_AMCHTB0P|25      |20230731  |2023-10-19 12:24:13|
+'----------------------+--------+----------+-------------------'
+
+.----------------------+--------+----------+-------------------.
+|                           Monitor                            |
+|=---------------------+--------+----------+------------------=|
+|JOB_NAME              |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------+--------+----------+------------------=|
+|J_LANDING_ITM_ADCMED0P|61      |20230731  |2023-10-19 12:24:13|
+'----------------------+--------+----------+-------------------'
+
+.----------------------+--------+----------+-------------------.
+|                           Monitor                            |
+|=---------------------+--------+----------+------------------=|
+|JOB_NAME              |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------+--------+----------+------------------=|
+|J_LANDING_ITM_ZCMSCEXP|4736237 |20230731  |2023-10-19 12:28:07|
+'----------------------+--------+----------+-------------------'
+
+.----------------------+--------+----------+-------------------.
+|                           Monitor                            |
+|=---------------------+--------+----------+------------------=|
+|JOB_NAME              |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------+--------+----------+------------------=|
+|J_LANDING_ITM_ZCDBAC0P|825215  |20230731  |2023-10-19 12:28:56|
+'----------------------+--------+----------+-------------------'
+
+.----------------------+--------+----------+-------------------.
+|                           Monitor                            |
+|=---------------------+--------+----------+------------------=|
+|JOB_NAME              |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------+--------+----------+------------------=|
+|J_LANDING_ITM_ZCMSCHXP|1079772 |20230731  |2023-10-19 12:31:48|
+'----------------------+--------+----------+-------------------'
+
+.----------------------+--------+----------+-------------------.
+|                           Monitor                            |
+|=---------------------+--------+----------+------------------=|
+|JOB_NAME              |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------+--------+----------+------------------=|
+|J_LANDING_ITM_ZTTYPR0P|145     |20230731  |2023-10-19 12:31:50|
+'----------------------+--------+----------+-------------------'
+
+.----------------------+--------+----------+-------------------.
+|                           Monitor                            |
+|=---------------------+--------+----------+------------------=|
+|JOB_NAME              |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------+--------+----------+------------------=|
+|J_LANDING_ITM_ZRSPCD0P|228     |20230731  |2023-10-19 12:31:51|
+'----------------------+--------+----------+-------------------'
+
+run query : truncate table ods.customer
+query finished 
+run query : insert into ods.customer 
+(business_date,source_system_code,customer_identifier,crn_number,customer_branch_code,customer_open_date,customer_full_name,customer_short_name,customer_type_code,place_of_birth,date_of_birth,gender,marital_status,marital_status_description,number_of_dependent,religion_type_code,religion_type_description,residence_country_code,residence_country_description,origin_country_code,origin_country_description,identification_type_code,identification_number,npwp_number,job_title,office_name,office_phone_text,office_fax_number_text,employment_status,employment_start,last_education,mother_name,email_address,mobile_phone_number,home_phone_number,fax_number,prime_address_street_name,prime_address_rt_text,prime_address_rw_text,prime_address_kelurahan_text,prime_address_kecamatan_text,prime_address_city_text,prime_address_province_text,prime_address_dati2_text,prime_address_country_code,prime_address_postal_code,residential_status_code,residential_status_description,domicile_address_street_text,domicile_address_rt_text,domicile_address_rw_text,domicile_address_kelurahan_text,domicile_address_kecamatan_text,domicile_address_city_text,domicile_address_province_text,domicile_address_country_code,domicile_address_postal_code,office_address_street_text,office_address_rt_text,office_address_rw_text,office_address_kelurahan_text,office_address_kecamatan_text,office_address_city_text,office_address_province_text,office_address_country_code,office_address_postal_code_text,correspondence_address_street_text,correspondence_address_rt_text,correspondence_address_rw_text,correspondence_address_kelurahan_text,correspondence_address_kecamatan_text,correspondence_address_city_text,correspondence_address_province_text,correspondence_address_country_code,correspondence_address_postal_code_text,spouse_name,spouse_identification_number,spouse_date_of_birth,property_separation_agreement_flag,relatives_full_name,relatives_address_street_text,relatives_address_rt_text,relatives_address_rw_text,relatives_address_kelurahan_text,relatives_address_kecamatan_text,relatives_address_city_text,relatives_address_province_text,relatives_address_country_code,relatives_address_postal_code_text,relatives_mobile_phone_text,relatives_home_phone_text,customer_relatives_relationship_type_code,customer_relatives_relationship_type_description,legal_form_type_code,legal_form_description,judicial_approval_number_text,judicial_approval_date,deed_of_establishment_text,place_of_establishment_text,date_of_establishment_text,basic_budget_number_text,date_of_basic_budget_text,trade_business_license_text,certificate_of_company_registration_text,certificate_of_company_registration_date,last_certificate_of_company_registration_text,last_certificate_of_company_registration_date,shareholder1_name,shareholder1_share_amount_text,shareholder2_name,shareholder2_share_amount_text,shareholder3_name,shareholder3_share_amount_text,shareholder4_name,shareholder4_share_amount_text,official1_name,official1_title_text,official1_identification_number_text,official1_identification_expiry_date,official1_citizenship_text,official2_name,official2_job_position_text,official2_identification_number_text,official2_identification_expiry_date,official2_citizenship_text,official3_name,official3_job_position_text,official3_identification_number_text,official3_identification_expiry_date,official3_citizenship_text,official4_name,official4_job_position_text,official4_identification_number_text,official4_identification_expiry_date,official4_citizenship_text,official5_name,official5_job_position_text,official5_identification_number_text,official5_identification_expiry_date,official5_citizenship_text,reference_bank_name,reference_bank_account_type_text,reference_bank_account_number_text,net_income_amount_type_code,net_income_amount_type_description,net_outcome_amount,authorized_person_full_name,authorized_person_job_position_text,authorized_person_identification_number_text,authorized_person_telephone_number_text,authorized_person_email_address_text,certificate_of_company_registration_expiry_date,rating_institution_code,customer_rating_code,rating_date,go_public_flag,international_rating_institution_name,international_debtor_rating_name,international_rating_date,domestic_rating_institution_name,domestic_debtor_rating_name,domestic_rating_date,share_holding_percentage,economic_sector_type_code,current_income_type_code,current_income_type_description,source_of_fund_type_code,source_of_fund_type_description,opening_purpose_type_code,opening_purpose_description,industrial_sector_text,bank_relationship_type_code,bank_relationship_type_description,average_debet_transaction_amount,average_credit_transaction_amount,debet_transaction_count,credit_transaction_count,additional_income_type_code,additional_income_type_description,title_text,customer_mnemonic_text,customer_group_lbu_code,customer_group_lbu_description,goldeb_lbu_code,melanggar_bmpk_flag,melampaui_bmpk_flag,old_customer_number,customer_collectibility_code,loan_active_flag,officer_id,inputter,authorizer,customer_status,record_last_update_date,is_regulatory,ingestion_time,last_maker_by,last_maker_time,last_checker_by,last_checker_time,flag_validate,desc_validate,customer_type,customer_manual_risk_class,pep_flag,kyc_cash_deposit_limit,kyc_cash_deposit_frequency,kyc_non_cash_limit,kyc_non_cash_limit_frequency,kyc_cash_withdraw_limit,kyc_cash_withdraw_frequency,kyc_non_cash_withdraw,kyc_non_cash_frequency)
+select
+	cast(batch_date as date) as business_date ,
+	cast('BSS' as varchar(3)) as source_system_code,
+	cast(customer.customer_no as varchar(100)) as customer_identifier ,
+	cast('' as varchar(100)) as crn_number ,
+	cast(customer.company_book as varchar(50)) as customer_branch_code ,
+	cast(case when customer.cus_open_date='' then null else customer.cus_open_date end as date) as customer_open_date ,
+	cast(customer.name_1 as varchar(255)) as customer_full_name ,
+	cast(customer.short_name as varchar(50)) as customer_short_name ,
+	cast(case when customer.gender is not null and customer.gender<>'' then '01' else '02' end as varchar(50)) as customer_type_code ,
+	cast(customer.place_of_birth as text) as place_of_birth ,
+	cast(case when customer.date_of_birth='' then null else customer.date_of_birth end as date) as date_of_birth ,
+	cast(customer.gender as varchar(1)) as gender ,
+	cast(customer.marital_status as varchar(1)) as marital_status ,
+	cast(null as varchar(50)) as marital_status_description ,
+	cast(case when customer.no_of_dependents ='' then null else customer.no_of_dependents end as integer) as number_of_dependent ,
+	cast(null as varchar(1)) as religion_type_code ,
+	cast(null as varchar(50)) as religion_type_description ,
+	cast(customer.residence as varchar(2)) as residence_country_code ,
+	cast(null as varchar(50)) as residence_country_description ,
+	cast(customer.nationality as varchar(2)) as origin_country_code ,
+	cast(null as varchar(50)) as origin_country_description ,
+	cast(customer.legal_doc_name as text) as identification_type_code ,
+	cast(customer.legal_id as varchar(50)) as identification_number ,
+	cast(customer.cus_npwp as varchar(50)) as npwp_number ,
+	cast(customer.job_title as varchar(50)) as job_title ,
+	cast(customer.employers_name as varchar(50)) as office_name ,
+	cast(null as varchar(50)) as office_phone_text ,
+	cast(null as varchar(50)) as office_fax_number_text ,
+	cast(null as varchar(50)) as employment_status ,
+	cast(null as date) as employment_start ,
+	cast(customer.last_education as varchar(50)) as last_education ,
+	cast(customer.mother_maid_nam as varchar(50)) as mother_name ,
+	cast(customer.email_1 as varchar(50)) as email_address ,
+	cast(customer.sms_1 as varchar(50)) as mobile_phone_number ,
+	cast(customer.phone_1 as varchar(50)) as home_phone_number ,
+	cast(null as varchar(50)) as fax_number ,
+	cast(customer.street as varchar(50)) as prime_address_street_name ,
+	cast(customer.ktp_rt as varchar(50)) as prime_address_rt_text ,
+	cast(customer.ktp_rw as varchar(50)) as prime_address_rw_text ,
+	cast(customer.ktp_kelurahan as varchar(50)) as prime_address_kelurahan_text ,
+	cast(customer.ktp_kecamatan as varchar(50)) as prime_address_kecamatan_text ,
+	cast(null as varchar(50)) as prime_address_city_text ,
+	cast(null as varchar(50)) as prime_address_province_text ,
+	cast(customer.sid_dati2debtor as text) as prime_address_dati2_text ,
+	cast(null as varchar(50)) as prime_address_country_code ,
+	cast(customer.post_code as varchar(50)) as prime_address_postal_code ,
+	cast(customer.residence_status as varchar(1)) as residential_status_code ,
+	cast(null as varchar(50)) as residential_status_description ,
+	cast(null as varchar(50)) as domicile_address_street_text ,
+	cast(null as varchar(50)) as domicile_address_rt_text ,
+	cast(null as varchar(50)) as domicile_address_rw_text ,
+	cast(null as varchar(50)) as domicile_address_kelurahan_text ,
+	cast(null as varchar(50)) as domicile_address_kecamatan_text ,
+	cast(null as varchar(50)) as domicile_address_city_text ,
+	cast(null as varchar(50)) as domicile_address_province_text ,
+	cast(null as varchar(50)) as domicile_address_country_code ,
+	cast(null as varchar(50)) as domicile_address_postal_code ,
+	cast(customer.employers_add as varchar(50)) as office_address_street_text ,
+	cast(null as varchar(50)) as office_address_rt_text ,
+	cast(null as varchar(50)) as office_address_rw_text ,
+	cast(null as varchar(50)) as office_address_kelurahan_text ,
+	cast(null as varchar(50)) as office_address_kecamatan_text ,
+	cast(null as varchar(50)) as office_address_city_text ,
+	cast(null as varchar(50)) as office_address_province_text ,
+	cast(null as varchar(50)) as office_address_country_code ,
+	cast(null as varchar(50)) as office_address_postal_code_text ,
+	cast(null as varchar(50)) as correspondence_address_street_text ,
+	cast(null as varchar(50)) as correspondence_address_rt_text ,
+	cast(null as varchar(50)) as correspondence_address_rw_text ,
+	cast(null as varchar(50)) as correspondence_address_kelurahan_text ,
+	cast(null as varchar(50)) as correspondence_address_kecamatan_text ,
+	cast(null as varchar(50)) as correspondence_address_city_text ,
+	cast(null as varchar(50)) as correspondence_address_province_text ,
+	cast(null as varchar(50)) as correspondence_address_country_code ,
+	cast(null as varchar(50)) as correspondence_address_postal_code_text ,
+	cast(customer.spouse_name as text) as spouse_name ,
+	cast(customer.spouse_id as text) as spouse_identification_number ,
+	cast(customer.spou_dt_of_birt as text) as spouse_date_of_birth ,
+	cast(customer.l_pisah_harta as text) as property_separation_agreement_flag ,
+	cast(null as varchar(50)) as relatives_full_name ,
+	cast(null as varchar(50)) as relatives_address_street_text ,
+	cast(null as varchar(50)) as relatives_address_rt_text ,
+	cast(null as varchar(50)) as relatives_address_rw_text ,
+	cast(null as varchar(50)) as relatives_address_kelurahan_text ,
+	cast(null as varchar(50)) as relatives_address_kecamatan_text ,
+	cast(null as varchar(50)) as relatives_address_city_text ,
+	cast(null as varchar(50)) as relatives_address_province_text ,
+	cast(null as varchar(50)) as relatives_address_country_code ,
+	cast(null as varchar(50)) as relatives_address_postal_code_text ,
+	cast(null as varchar(50)) as relatives_mobile_phone_text ,
+	cast(null as varchar(50)) as relatives_home_phone_text ,
+	cast(null as varchar(1)) as customer_relatives_relationship_type_code ,
+	cast(null as varchar(50)) as customer_relatives_relationship_type_description ,
+	cast(null as varchar(1)) as legal_form_type_code ,
+	cast(null as varchar(50)) as legal_form_description ,
+	cast(null as varchar(50)) as judicial_approval_number_text ,
+	cast(null as date) as judicial_approval_date ,
+	cast(null as varchar(50)) as deed_of_establishment_text ,
+	cast(null as varchar(50)) as place_of_establishment_text ,
+	cast(null as date) as date_of_establishment_text ,
+	cast(null as varchar(50)) as basic_budget_number_text ,
+	cast(null as date) as date_of_basic_budget_text ,
+	cast(null as varchar(50)) as trade_business_license_text ,
+	cast(customer.no_akta_awal as text) as certificate_of_company_registration_text ,
+	cast(case when customer.tgl_akta_awal ='' then null else customer.tgl_akta_awal end as date) as certificate_of_company_registration_date ,
+	cast(customer.no_akta_akhir as text) as last_certificate_of_company_registration_text ,
+	cast(case when customer.tgl_akta_akhir ='' then null else customer.tgl_akta_akhir end as date) as last_certificate_of_company_registration_date ,
+	cast(null as varchar(50)) as shareholder1_name ,
+	cast(null as varchar(50)) as shareholder1_share_amount_text ,
+	cast(null as varchar(50)) as shareholder2_name ,
+	cast(null as varchar(50)) as shareholder2_share_amount_text ,
+	cast(null as varchar(50)) as shareholder3_name ,
+	cast(null as varchar(50)) as shareholder3_share_amount_text ,
+	cast(null as varchar(50)) as shareholder4_name ,
+	cast(null as varchar(50)) as shareholder4_share_amount_text ,
+	cast(null as varchar(50)) as official1_name ,
+	cast(null as varchar(50)) as official1_title_text ,
+	cast(null as varchar(50)) as official1_identification_number_text ,
+	cast(null as varchar(50)) as official1_identification_expiry_date ,
+	cast(null as varchar(50)) as official1_citizenship_text ,
+	cast(null as varchar(50)) as official2_name ,
+	cast(null as varchar(50)) as official2_job_position_text ,
+	cast(null as varchar(50)) as official2_identification_number_text ,
+	cast(null as varchar(50)) as official2_identification_expiry_date ,
+	cast(null as varchar(50)) as official2_citizenship_text ,
+	cast(null as varchar(50)) as official3_name ,
+	cast(null as varchar(50)) as official3_job_position_text ,
+	cast(null as varchar(50)) as official3_identification_number_text ,
+	cast(null as varchar(50)) as official3_identification_expiry_date ,
+	cast(null as varchar(50)) as official3_citizenship_text ,
+	cast(null as varchar(50)) as official4_name ,
+	cast(null as varchar(50)) as official4_job_position_text ,
+	cast(null as varchar(50)) as official4_identification_number_text ,
+	cast(null as varchar(50)) as official4_identification_expiry_date ,
+	cast(null as varchar(50)) as official4_citizenship_text ,
+	cast(null as varchar(50)) as official5_name ,
+	cast(null as varchar(50)) as official5_job_position_text ,
+	cast(null as varchar(50)) as official5_identification_number_text ,
+	cast(null as varchar(50)) as official5_identification_expiry_date ,
+	cast(null as varchar(50)) as official5_citizenship_text ,
+	cast(null as varchar(50)) as reference_bank_name ,
+	cast(null as varchar(50)) as reference_bank_account_type_text ,
+	cast(null as varchar(50)) as reference_bank_account_number_text ,
+	cast(customer.kyc_incom_rng as varchar(2)) as net_income_amount_type_code ,
+	cast(null as varchar(50)) as net_income_amount_type_description ,
+	cast(customer.net_monthly_out as text) as net_outcome_amount ,
+	cast(null as varchar(50)) as authorized_person_full_name ,
+	cast(null as varchar(50)) as authorized_person_job_position_text ,
+	cast(null as varchar(50)) as authorized_person_identification_number_text ,
+	cast(null as varchar(50)) as authorized_person_telephone_number_text ,
+	cast(null as varchar(50)) as authorized_person_email_address_text ,
+	cast(null as date) as certificate_of_company_registration_expiry_date ,
+	cast(customer.sid_lembaga as text) as rating_institution_code ,
+	cast(customer.sid_rating_deb as text) as customer_rating_code ,
+	cast(case when customer.sid_rating_tgl='' then null else customer.sid_rating_tgl end as text) as rating_date ,
+	cast(customer.sid_go_public as text) as go_public_flag ,
+	cast(null as varchar(50)) as international_rating_institution_name ,
+	cast(null as varchar(50)) as international_debtor_rating_name ,
+	cast(null as date) as international_rating_date ,
+	cast(null as varchar(50)) as domestic_rating_institution_name ,
+	cast(null as varchar(50)) as domestic_debtor_rating_name ,
+	cast(null as date) as domestic_rating_date ,
+	cast(null as varchar(50)) as share_holding_percentage ,
+	cast(customer.sid_sektor_econ as varchar(10)) as economic_sector_type_code ,
+	cast(customer.kyc_revenue as varchar(1)) as current_income_type_code ,
+	cast(null as varchar(50)) as current_income_type_description ,
+	cast(customer.kyc_income_src as varchar(1)) as source_of_fund_type_code ,
+	cast(null as varchar(50)) as source_of_fund_type_description ,
+	cast(customer.kyc_purpose_acc as varchar(1)) as opening_purpose_type_code ,
+	cast(null as varchar(50)) as opening_purpose_description ,
+	cast(null as varchar(50)) as industrial_sector_text ,
+	cast(customer.sid_related as varchar(1)) as bank_relationship_type_code ,
+	cast(null as varchar(50)) as bank_relationship_type_description ,
+	cast(null as varchar(50)) as average_debet_transaction_amount ,
+	cast(null as varchar(50)) as average_credit_transaction_amount ,
+	cast(null as varchar(50)) as debet_transaction_count ,
+	cast(null as varchar(50)) as credit_transaction_count ,
+	cast(null as varchar(1)) as additional_income_type_code ,
+	cast(null as varchar(50)) as additional_income_type_description ,
+	cast(null as varchar(50)) as title_text ,
+	cast(null as varchar(50)) as customer_mnemonic_text ,
+	cast(customer.sid_group_id as varchar(50)) as customer_group_lbu_code ,
+	cast(customer.sid_group_name as varchar(50)) as customer_group_lbu_description ,
+	cast(customer.lbu_gol_deb as text) as goldeb_lbu_code ,
+	cast(customer.sid_melanggar as text) as melanggar_bmpk_flag ,
+	cast(customer.sid_melampaui as text) as melampaui_bmpk_flag ,
+	cast(null as varchar(50)) as old_customer_number ,
+	coalesce(cast(ld.asset_class as varchar(1)),'') as customer_collectibility_code ,
+	cast(case when ld.customer_id is not null then '1' else '0' end as text) as loan_active_flag , 
+	cast(customer.account_officer as varchar(50)) as officer_id ,
+	cast(null as varchar(50)) as inputter ,
+	cast(null as varchar(50)) as authorizer ,
+	cast(null as varchar(1)) as customer_status ,
+	to_timestamp('20'||customer.date_time, 'YYYYMMDDHH24MI') as record_last_update_date ,
+	cast('0' as text) as is_regulatory ,
+	cast(current_timestamp as timestamp) as ingestion_time ,
+	cast(null as text) as last_maker_by ,
+	cast(null as text) as last_maker_time ,
+	cast(null as text) as last_checker_by ,
+	cast(null as text) as last_checker_time ,
+	cast(null as text) as flag_validate ,
+	cast(null as text) as desc_validate ,
+	cast(case when customer.gender is not null and customer.gender <> '' then 'INDIVIDU' else 'CORPORATE' end as text) as customer_type ,
+	cast(customer.manual_risk_class as text) as customer_manual_risk_class ,
+	cast(case when pep.nik is not null then 'Y' else 'N' end as varchar(1)) as pep_flag
+	,cast(nullif(case 
+		when kyc_cash_dep_li ='' then null 
+		else case when right(kyc_cash_dep_li,3)='.00' then regexp_replace(regexp_replace(replace(kyc_cash_dep_li,'.00',''),'[^\w]+','','g'),'[^0-9]+', '', 'g') else regexp_replace(regexp_replace(kyc_cash_dep_li,'[^\w]+','','g'),'[^0-9]+', '', 'g') end
+	end,'') as decimal(28,2))  as kyc_cash_deposit_limit
+	,cast(case when regexp_replace(kyc_cash_dep_fq, '[^0-9]+', '', 'g') ='' then null else regexp_replace(kyc_cash_dep_fq, '[^0-9]+', '', 'g') end as int) as kyc_cash_deposit_frequency
+	,cast(nullif(case 
+		when kyc_noncash_lim ='' then null 
+		else case when right(kyc_noncash_lim,3)='.00' then regexp_replace(regexp_replace(replace(kyc_noncash_lim,'.00',''),'[^\w]+','','g'),'[^0-9]+', '', 'g') else regexp_replace(regexp_replace(kyc_noncash_lim,'[^\w]+','','g'),'[^0-9]+', '', 'g') end
+	end,'') as decimal(28,2)) as kyc_non_cash_limit
+	,cast(case when regexp_replace(kyc_noncash_fq, '[^0-9]+', '', 'g') ='' then null else regexp_replace(kyc_noncash_fq, '[^0-9]+', '', 'g') end as int) as kyc_non_cash_limit_frequency
+	,cast(nullif(case 
+		when kyc_cash_wd_lim ='' then null 
+		else case when right(kyc_cash_wd_lim,3)='.00' then regexp_replace(regexp_replace(replace(kyc_cash_wd_lim,'.00',''),'[^\w]+','','g'),'[^0-9]+', '', 'g') else regexp_replace(regexp_replace(replace(kyc_cash_wd_lim,'.',''),'[^\w]+','','g'),'[^0-9]+', '', 'g') end
+	end,'') as decimal(28,2))  as kyc_cash_withdraw_limit
+	,cast(case when regexp_replace(kyc_cash_wd_fq, '[^0-9]+', '', 'g') ='' then null else regexp_replace(kyc_cash_wd_fq, '[^0-9]+', '', 'g') end as int) as kyc_cash_withdraw_frequency
+	,cast(nullif(case 
+		when kyc_non_cash_wd ='' then null 
+		else case when right(kyc_non_cash_wd,3)='.00' then regexp_replace(regexp_replace(replace(kyc_non_cash_wd,'.00',''),'[^\w]+','','g'),'[^0-9]+', '', 'g') else regexp_replace(regexp_replace(replace(kyc_non_cash_wd,'.',''),'[^\w]+','','g'),'[^0-9]+', '', 'g') end
+	end,'') as decimal(28,2)) as kyc_cash_withdraw_limit
+	,cast(case when regexp_replace(kyc_noncash_fqu, '[^0-9]+', '', 'g') ='' then null else regexp_replace(kyc_noncash_fqu, '[^0-9]+', '', 'g') end as int) as kyc_non_cash_frequency
+from landing.bss_customer customer
+left join (select customer_id, max(cast(case when asset_class='' then null else asset_class end as int)) as asset_class from landing.bss_ld group by customer_id) ld on customer.customer_no = ld.customer_id
+left join (
+	select distinct nik from (
+	select nik from landing.ms_pepdata_pepstatus 
+	union all
+	select nik from landing.ms_pepdata_pepstatusservices 
+	union all
+	select nik from landing.ms_pepdata_pepstatusweb 
+	) x
+) as pep on trim(customer.legal_id) = trim(pep.nik)
+query finished 
+run query : truncate table ods.casa_account
+query finished 
+run query : insert into ods.casa_account 
+(business_date,source_system_code,account_number,customer_identifier,crn_number,account_customer_name,account_branch_code,account_branch_code_description,account_type_code,account_type_description,account_status,account_open_date,account_close_date,last_transaction_date,original_currency_code,outstanding_balance_amount,ledger_balance_amount,available_balance_amount,overdraft_limit_amount,overdraft_outstanding_amount,start_overdraft_facility_date,overdraft_expiry_date,renewal_overdraft_facility_date,pastdue_days,interest_type_code,interest_rate,joint_account_flag,last_debit_date,last_credit_date,last_maintenance_date,economic_sector_code,economic_sector_description,card_number,bic_code,principle_pastdue_amount,interest_pastdue_amount,bi_loan_type_code,bi_loan_type_description,bi_loan_orientation_type_code,bi_loan_orientation_type_description,bi_loan_characteristic_type_code,bi_loan_characteristic_type_description,bi_loan_purpose_type_code,bi_loan_purpose_type_description,bi_loan_location_code,bi_loan_location_description,bi_debtor_group_code,bank_relationship_type_code,dhe_sda_flag,old_customer_number,collectibility_code,officer_id,inputter,authorizer,record_last_update_date)
+select
+	cast(account.batch_date as date) as business_date,
+	cast('BSS' as varchar(3)) as source_system_code,
+	cast(account.id as varchar(50)) as account_number,
+	cast(account.customer_no as varchar(50)) as customer_identifier,
+	cast(null as varchar(50)) as crn_number,
+	cast(account.account_title_1 as varchar(255)) as account_customer_name,
+	cast(account.co_code as varchar(50)) as account_branch_code,
+	cast(company.company_name as varchar(255)) as account_branch_code_description,
+	cast(account.category as varchar(50)) as account_type_code,
+	cast(category.description as varchar(50)) as account_type_description,
+	cast(case when account_closure.id is not null then 'C' else 'A' end as varchar(1)) as account_status,
+	cast(case when account.opening_date='' then null else account.opening_date end as date) as account_open_date,
+	cast(case when account_closure.capital_date ='' then null else account_closure.capital_date end as date) as account_close_date,
+	cast(alt.last_transaction_date as date) as last_transaction_date, 
+	cast(account.currency as varchar(3)) as original_currency_code,
+	cast(case when account.online_actual_bal = '' then null else account.online_actual_bal end as decimal(16,2)) as outstanding_balance_amount,
+	cast(null as decimal(16,2)) as ledger_balance_amount,
+	cast(case when account.available_bal='' then null else account.available_bal end as decimal(16,2)) as available_balance_amount,
+	cast(null as decimal(16,2)) as overdraft_limit_amount,
+	cast(null as decimal(16,2)) as overdraft_outstanding_amount,
+	cast(null as date) as start_overdraft_facility_date,
+	cast(null as date) as overdraft_expiry_date,
+	cast(null as date) as renewal_overdraft_facility_date,
+	cast(null as varchar(50)) as pastdue_days,
+	cast(null as varchar(5)) as interest_type_code,
+	cast(null as decimal(16,2)) as interest_rate,
+	cast(case when (nullif(account.joint_holder,'') is not null) then 'Y' else 'N' end as varchar(1)) as joint_account_flag,
+	cast(ald.last_debit_date as date) as last_debit_date,
+	cast(alc.last_credit_date as date) as last_credit_date,
+	cast(null as date) as last_maintenance_date,
+	cast(null as varchar(50)) as economic_sector_code,
+	cast(null as varchar(50)) as economic_sector_description,
+	cast(null as varchar(50)) as card_number,
+	cast(null as varchar(50)) as bic_code,
+	cast(null as decimal(16,2)) as principle_pastdue_amount,
+	cast(null as decimal(16,2)) as interest_pastdue_amount,
+	cast(null as varchar(50)) as bi_loan_type_code,
+	cast(null as varchar(50)) as bi_loan_type_description,
+	cast(null as varchar(50)) as bi_loan_orientation_type_code,
+	cast(null as varchar(50)) as bi_loan_orientation_type_description,
+	cast(null as varchar(50)) as bi_loan_characteristic_type_code,
+	cast(null as varchar(50)) as bi_loan_characteristic_type_description,
+	cast(null as varchar(50)) as bi_loan_purpose_type_code,
+	cast(null as varchar(50)) as bi_loan_purpose_type_description,
+	cast(null as varchar(50)) as bi_loan_location_code,
+	cast(null as varchar(50)) as bi_loan_location_description,
+	cast(null as varchar(50)) as bi_debtor_group_code,
+	cast(null as varchar(50)) as bank_relationship_type_code,
+	cast(null as varchar(1)) as dhe_sda_flag,
+	cast(null as varchar(50)) as old_customer_number,
+	cast(null as varchar(1)) as collectibility_code,
+	cast(account.account_officer as varchar(50)) as officer_id,
+	cast(account.inputter as varchar(50)) as inputter,
+	cast(account.authoriser as varchar(50)) as authorizer,
+	cast(case when account.date_last_update='' then null else account.date_last_update end as timestamp) as record_last_update_date
+from landing.bss_account account
+left join landing.bss_company company on account.co_code = company.id
+left join landing.bss_category category on account.category = category.id
+left join landing.bss_account_closure account_closure on account.id = account_closure.id
+left join (
+	select 
+		id, 
+		max(last_debit_date) last_debit_date from 
+	(
+	select id, cast(case when date_last_dr_cust='' or date_last_dr_cust='NULL' then null else date_last_dr_cust end as date) last_debit_date from landing.bss_account where date_last_dr_cust <>'' and (left(category,2) in ('60','61','62') or left(category,2) in ('10','11','12'))
+	union all
+	select id, cast(case when date_last_dr_auto='' or date_last_dr_auto='NULL' then null else date_last_dr_auto end as date) last_debit_date from landing.bss_account where date_last_dr_auto <>'' and (left(category,2) in ('60','61','62') or left(category,2) in ('10','11','12'))
+	union all
+	select id, cast(case when date_last_dr_bank='' or date_last_dr_auto='NULL' then null else date_last_dr_bank end as date) last_debit_date from landing.bss_account where date_last_dr_bank <>'' and (left(category,2) in ('60','61','62') or left(category,2) in ('10','11','12'))
+	) y
+	group by id
+) as ald on account.id = ald.id
+left join (
+	select 
+		id, 
+		max(last_credit_date) last_credit_date from (
+	select id, cast(case when date_last_cr_cust='' or date_last_cr_cust='NULL' then null else date_last_cr_cust end as date) last_credit_date from landing.bss_account where date_last_cr_cust <>'' and length(category)=4 and (left(category,2) in ('60','61','62') or left(category,2) in ('10','11','12'))
+	union all
+	select id, cast(case when date_last_cr_auto='' or date_last_cr_auto='NULL' then null else date_last_cr_auto end as date) last_credit_date from landing.bss_account where date_last_cr_auto <>'' and (left(category,2) in ('60','61','62') or left(category,2) in ('10','11','12'))
+	union all
+	select id, cast(case when date_last_cr_bank='' or date_last_cr_bank='NULL' then null else date_last_cr_bank end as date) last_credit_date from landing.bss_account where date_last_cr_bank <>'' and (left(category,2) in ('60','61','62') or left(category,2) in ('10','11','12'))
+	) x
+	group by id
+) as alc on account.id = alc.id
+left join (
+	select 
+		id, 
+		max(last_transaction_date) last_transaction_date from 
+	(
+	select id, cast(case when date_last_cr_cust='' or date_last_cr_cust='NULL' then null else date_last_cr_cust end as date) last_transaction_date from landing.bss_account where date_last_cr_cust <>'' and length(category)=4 and (left(category,2) in ('60','61','62') or left(category,2) in ('10','11','12'))
+	union all
+	select id, cast(case when date_last_cr_auto='' or date_last_cr_auto='NULL' then null else date_last_cr_auto end as date) last_transaction_date from landing.bss_account where date_last_cr_auto <>'' and (left(category,2) in ('60','61','62') or left(category,2) in ('10','11','12'))
+	union all
+	select id, cast(case when date_last_cr_bank='' or date_last_cr_bank='NULL' then null else date_last_cr_bank end as date) last_transaction_date from landing.bss_account where date_last_cr_bank <>'' and (left(category,2) in ('60','61','62') or left(category,2) in ('10','11','12'))
+	union all
+	select id, cast(case when date_last_dr_cust='' or date_last_dr_cust='NULL' then null else date_last_dr_cust end as date) last_transaction_date from landing.bss_account where date_last_dr_cust <>'' and (left(category,2) in ('60','61','62') or left(category,2) in ('10','11','12'))
+	union all
+	select id, cast(case when date_last_dr_auto='' or date_last_dr_auto='NULL' then null else date_last_dr_auto end as date) last_transaction_date from landing.bss_account where date_last_dr_auto <>'' and (left(category,2) in ('60','61','62') or left(category,2) in ('10','11','12'))
+	union all
+	select id, cast(case when date_last_dr_bank='' or date_last_dr_bank ='NULL' then null else date_last_dr_bank end as date) last_transaction_date from landing.bss_account where date_last_dr_bank <>'' and (left(category,2) in ('60','61','62') or left(category,2) in ('10','11','12'))
+	) z
+	group by id
+) as alt on account.id = alt.id
+where length(account.category)=4 and (left(category,2) in ('60','61','62') or left(category,2) in ('10','11','12'))
+query finished 
+run query : truncate table ods.transaction
+query finished 
+run query : insert into ods.transaction
+(business_date,source_system_code,transaction_identifier,account_number,customer_identifier,crn_number,account_customer_name,transaction_branch_code,account_branch_code,account_type_code,account_type_description,transaction_code,transaction_description,posting_date,value_date,transaction_timestamp,currency_code,transaction_sign_code,transaction_amount,transaction_amount_equivalent_idr,reference_number,transaction_narrative1_text,transaction_narrative2_text,transaction_narrative3_text,transaction_narrative4_text,beneficiary_account_text,beneficiary_account_name,beneficiary_bank_code,ordering_account_text,ordering_account_name,ordering_bank_code,acquire_bank_code,journal_key_code,external_key1_text,external_key2_text,external_key3_text,external_key4_text,transaction_type_code,transaction_type_description,inputter,authorizer,record_last_update_date,transaction_device_identifier,transaction_device_model,transaction_device_operating_system,transaction_device_location_latitude,transaction_device_location_longitude,transaction_origin,transaction_channel,transaction_device_ip_address,transaction_device_phone_number,username,transaction_status,transaction_response_code,transaction_terminal_location,transaction_terminal_identifier,transaction_merchant_code,transaction_card_number,transaction_customer_id,transaction_feature_code,transaction_feature_name)
+select
+	cast(stmt_entry.batch_date as date) as business_date,
+	cast('BSS' as text) as source_system_code,
+	cast(stmt_entry.id as text) as transaction_identifier,
+	cast(stmt_entry.account_number as text) as account_number,
+	cast(stmt_entry.customer_id as text) as customer_identifier,
+	cast(null as text) as crn_number,
+	cast(customer.name_1 as text) as account_customer_name,
+	cast(stmt_entry.company_code as text) as transaction_branch_code,
+	cast(account.co_code as text) as account_branch_code,
+	cast(account.category as text) as account_type_code,
+	cast(category.description as text) as account_type_description,
+	cast(stmt_entry.transaction_code as text) as transaction_code,
+	cast(transaction.narrative as text) as transaction_description,
+	cast(case when stmt_entry.booking_date='' then null else stmt_entry.booking_date end as date) as posting_date,
+	cast(case when stmt_entry.value_date='' then null else stmt_entry.value_date end as date) as value_date,
+	to_timestamp('20'||stmt_entry.date_time, 'YYYYMMDDHH24MI') as transaction_timestamp,
+	cast(stmt_entry.currency as text) as currency_code,
+	cast(transaction.debit_credit_ind as text) as transaction_sign_code,
+	cast(case when upper(stmt_entry.currency) = 'IDR' then case when stmt_entry.amount_lcy='' then null else stmt_entry.amount_lcy end else case when stmt_entry.amount_fcy='' then null else stmt_entry.amount_fcy end end as decimal(16,2)) as transaction_amount,
+	cast(case when stmt_entry.amount_lcy='' then null else stmt_entry.amount_lcy end as decimal(16,2)) as transaction_amount_equivalent_idr,
+	cast(stmt_entry.trans_reference as text) as reference_number,
+	cast(stmt_entry.narrative as text) as transaction_narrative1_text,
+	cast(null as text) as transaction_narrative2_text,
+	cast(null as text) as transaction_narrative3_text,
+	cast(null as text) as transaction_narrative4_text,
+	cast(case when upper(transaction.debit_credit_ind) = 'CREDIT' then stmt_entry.account_number else '' end as text) as beneficiary_account_text,
+	cast(case when upper(transaction.debit_credit_ind) = 'CREDIT' then account.account_title_1 else '' end as text) as beneficiary_account_name,
+	cast(null as text) as beneficiary_bank_code,
+	cast(case when upper(transaction.debit_credit_ind) = 'DEBIT' then stmt_entry.account_number else '' end as text) as ordering_account_text,
+	cast(case when upper(transaction.debit_credit_ind) = 'DEBIT' then account.account_title_1 else '' end as text) as ordering_account_name,
+	cast(null as text) as ordering_bank_code,
+	cast(null as text) as acquire_bank_code,
+	cast(stmt_entry.consol_key as text) as journal_key_code,
+	cast(null as text) as external_key1_text,
+	cast(null as text) as external_key2_text,
+	cast(null as text) as external_key3_text,
+	cast(null as text) as external_key4_text,
+	cast(null as text) as transaction_type_code,
+	cast(null as text) as transaction_type_description,
+	cast(stmt_entry.inputter as text) as inputter,
+	cast(stmt_entry.authoriser as text) as authorizer,
+	cast(null as timestamp) as record_last_update_date,
+	cast(null as text) as transaction_device_identifier,
+	cast(null as text) as transaction_device_model,
+	cast(null as text) as transaction_device_operating_system,
+	cast(null as text) as transaction_device_location_latitude,
+	cast(null as text) as transaction_device_location_longitude,
+	cast(null as text) as transaction_origin,
+	cast(null as text) as transaction_channel,
+	cast(null as text) as transaction_device_ip_address,
+	cast(customer.sms_1 as text) as transaction_device_phone_number,
+	cast(null as text) as username,
+	cast(null as text) as transaction_status,
+	cast(null as text) as transaction_response_code,
+	cast(null as text) as transaction_terminal_location,
+	cast(null as text) as transaction_terminal_identifier,
+	cast(null as text) as transaction_merchant_code,
+	cast(null as text) as transaction_card_number,
+	cast(stmt_entry.customer_id as text) as transaction_customer_id,
+	cast(null as text) as transaction_feature_code,
+	cast(null as text) as transaction_feature_name
+from landing.bss_stmt_entry stmt_entry
+left join landing.bss_customer customer on stmt_entry.customer_id = customer.id
+left join landing.bss_account account on stmt_entry.account_number = account.id
+left join landing.bss_category category on account.category = category.id
+left join landing.bss_transaction transaction on stmt_entry.transaction_code = transaction.id
+query finished 
+run query : truncate table ods.card_profile
+query finished 
+run query : insert into ods.card_profile 
+(business_date,source_system_code,card_number,customer_identifier,account_number,card_name,card_type,card_active_status_code,card_block_code_status,card_block_code_status_description,card_block_code_date,issued_card_timestamp,expiration_card_timestamp,closed_card_timestamp,card_block_code_status_history,card_block_code_status_history_status,card_block_code_status_history_start_date,withdrawal_limit,daily_withdrawal_limit,pos_transaction_limit,daily_pos_transaction_limit,ecommerce_transaction_limit_amount,ecommerce_daily_limit_amount,contactless_daily_limit_amount,contactless_transaction_limit_amount,atm_transfer_daily_limit_amount,is_ecommerce_limit_active,is_contactless_limit_active,is_withdrawal_limit_active,is_international_payment_active,card_id,card_last_use_date,card_holder_since_date,last_pin_invalid_date,last_card_action_type_code,count_update_card_action,last_update_user,last_card_action_datetime,card_number_encrypt)
+select
+cast(zcmschxp.batch_date as date) as business_date,
+cast('ITM' as text) as source_system_code,
+cast(zcmschxp.cardnumber as text) as card_number,
+cast(zcmschxp.citizenid as text) as customer_identifier,
+cast(zcdbac0p.accountnumber as text) as account_number,
+cast(zcmschxp.searchname as text) as card_name,
+cast(zcmschxp.cardtype as text) as card_type,
+cast(zcmschxp.activeinactive as text) as card_active_status_code,
+cast(zcmschxp.cardstatus_action as text) as card_block_code_status,
+cast(case when upper(zcmschxp.cardstatus_action) ='E' then 'CLOSE' when lower(zcmschxp.cardstatus_action)='' then 'ACTIVE' else 'BLOCK' end as text) as card_block_code_status_description,
+cast(case when upper(zcmschxp.cardstatus_action) not in ('E','') then zcmscexp_block.datetrx||' '||zcmscexp_block.timetrx else null end as date) as card_block_code_date,
+cast(case when zcmschxp.issuedate='' or length(zcmschxp.issuedate)<7 then '1900-01-01 00:00:00' else '20'||substr(zcmschxp.issuedate,2,6) end as timestamp) as issued_card_timestamp,
+cast(case when zcmschxp.expirationdate='' or length(zcmschxp.expirationdate)<7 then '1900-01-01 00:00:00' else '20'||substr(zcmschxp.expirationdate,2,6) end as timestamp) as expiration_card_timestamp,
+cast(case when upper(zcmschxp.cardstatus_action)='E' then zcmscexp_close.datetrx||' '||zcmscexp_close.timetrx else null end as timestamp) as closed_card_timestamp,
+cast(null as text) as card_block_code_status_history,
+cast(null as text) as card_block_code_status_history_status,
+cast(null as date) as card_block_code_status_history_start_date,
+cast(null as decimal(16,2)) as withdrawal_limit,
+cast(null as decimal(16,2)) as daily_withdrawal_limit,
+cast(null as decimal(16,2)) as pos_transaction_limit,
+cast(null as decimal(16,2)) as daily_pos_transaction_limit,
+cast(null as decimal(16,2)) as ecommerce_transaction_limit_amount,
+cast(null as decimal(16,2)) as ecommerce_daily_limit_amount,
+cast(null as decimal(16,2)) as contactless_daily_limit_amount,
+cast(null as decimal(16,2)) as contactless_transaction_limit_amount,
+cast(null as decimal(16,2)) as atm_transfer_daily_limit_amount,
+cast(null as text) as is_ecommerce_limit_active,
+cast(null as text) as is_contactless_limit_active,
+cast(null as text) as is_withdrawal_limit_active, 
+cast(null as text) as is_international_payment_active,
+cast(null as text) as card_id,
+cast(case when zcmschxp.lastusedate='' or length(zcmschxp.lastusedate) < 7 then '1900-01-01' else '20'||substr(zcmschxp.lastusedate,2,6) end as date) as card_last_use_date,
+cast(case when zcmschxp.cardholdersincedate='' or length(zcmschxp.cardholdersincedate) < 7 then '1900-01-01' else '20'||substr(zcmschxp.cardholdersincedate,2,6) end as date) as card_holder_since_date,
+cast(case when zcmschxp.lastinvalidpindate='' or length(zcmschxp.lastinvalidpindate) < 7 then '1900-01-01' else '20'||substr(zcmschxp.lastinvalidpindate,2,6) end as date) as last_pin_invalid_date,
+cast(zcmscexp.eventtype as text) as last_card_action_type_code,
+cast(zcmscexp.count_update_card_action as text) as count_update_card_action,
+cast(zcmscexp.userid as text) as last_update_user,
+cast(zcmscexp.datetrx||' '||zcmscexp.timetrx as timestamp) as last_card_action_datetime,
+cast(zcmschxp.cardnumberencrpty as text) as card_number_encrypt
+from landing.itm_zcmschxp zcmschxp
+join landing.itm_zcdbac0p zcdbac0p on zcmschxp.primaryclientid = zcdbac0p.primaryclientid
+left join (
+select cardnumber,eventtype,userid,datetrx,substr(timetrx,1,2)||':'||substr(timetrx,3,2)||':'||substr(timetrx,5,2) timetrx,count_update_card_action,rn
+from (
+	select 
+		cardnumber,
+		eventtype,
+		userid,
+		case when length(datetrx)=1 then '1900-01-01' else '20'||substr(datetrx,2,2)||'-'||substr(datetrx,4,2)||'-'||substr(datetrx,6,2) end datetrx,
+		case 
+			when length(timetrx)=1 then concat('00000',timetrx) 
+			when length(timetrx)=2 then concat('0000',timetrx)
+			when length(timetrx)=3 then concat('000',timetrx)	
+			when length(timetrx)=4 then concat('00',timetrx)	
+			when length(timetrx)=5 then concat('0',timetrx)	
+			when length(timetrx)=6 then timetrx	
+			else '000000'
+		end as timetrx,
+		row_number() over(partition by cardnumber order by cast(datetrx as int) desc,cast(timetrx as int) desc) as rn,
+		count(1) over(partition by cardnumber) as count_update_card_action
+	from landing.itm_zcmscexp
+	where cardnumber <> ''
+	) x
+	where rn=1
+) zcmscexp on zcmschxp.cardnumber = zcmscexp.cardnumber
+left join (
+select cardnumber,eventtype,userid,datetrx,substr(timetrx,1,2)||':'||substr(timetrx,3,2)||':'||substr(timetrx,5,2) timetrx,count_update_card_action,rn
+from (
+	select 
+		cardnumber,
+		eventtype,
+		userid,
+		case when length(datetrx)=1 then '1900-01-01' else '20'||substr(datetrx,2,2)||'-'||substr(datetrx,4,2)||'-'||substr(datetrx,6,2) end datetrx,
+		case 
+			when length(timetrx)=1 then concat('00000',timetrx) 
+			when length(timetrx)=2 then concat('0000',timetrx)
+			when length(timetrx)=3 then concat('000',timetrx)	
+			when length(timetrx)=4 then concat('00',timetrx)	
+			when length(timetrx)=5 then concat('0',timetrx)	
+			when length(timetrx)=6 then timetrx	
+			else '000000'
+		end as timetrx,
+		row_number() over(partition by cardnumber order by cast(datetrx as int) desc,cast(timetrx as int) desc) as rn,
+		count(1) over(partition by cardnumber) as count_update_card_action
+	from landing.itm_zcmscexp
+	where cardnumber <> '' and upper(eventtype) = 'BL'
+	) y
+	where rn = 1
+) zcmscexp_block on zcmschxp.cardnumber = zcmscexp_block.cardnumber 
+left join (
+select cardnumber,eventtype,userid,datetrx,substr(timetrx,1,2)||':'||substr(timetrx,3,2)||':'||substr(timetrx,5,2) timetrx,count_update_card_action,rn
+from (
+	select 
+		cardnumber,
+		eventtype,
+		userid,
+		case when length(datetrx)=1 then '1900-01-01' else '20'||substr(datetrx,2,2)||'-'||substr(datetrx,4,2)||'-'||substr(datetrx,6,2) end datetrx,
+		case 
+			when length(timetrx)=1 then concat('00000',timetrx) 
+			when length(timetrx)=2 then concat('0000',timetrx)
+			when length(timetrx)=3 then concat('000',timetrx)	
+			when length(timetrx)=4 then concat('00',timetrx)	
+			when length(timetrx)=5 then concat('0',timetrx)	
+			when length(timetrx)=6 then timetrx	
+			else '000000'
+		end as timetrx, 
+		row_number() over(partition by cardnumber order by cast(datetrx as int) desc,cast(timetrx as int) desc) as rn,
+		count(1) over(partition by cardnumber) as count_update_card_action
+	from landing.itm_zcmscexp
+	where cardnumber <> '' and upper(eventtype) = 'CC'
+	) z
+	where rn = 1
+) zcmscexp_close on zcmschxp.cardnumber = zcmscexp_close.cardnumber
+query finished 
+run query : truncate table ods.card_log
+query finished 
+run query : insert into ods.card_log
+(business_date,source_system_code,card_number,card_number_encrypt,customer_identifier,card_action_type_code,card_action_date_time,user_id)
+select
+	cast(zcmscexp.batch_date as date) as business_date,
+	cast('ITM' as text) as source_system_code,
+	cast(zcmscexp.cardnumber as text) as card_number,
+	cast(zcmscexp.cardnumberencrpty as text) as card_number_encrypt,
+	cast(zcmschxp.citizenid as text) as customer_identifier,
+	cast(zcmscexp.eventtype as text) as card_action_type_code,
+	cast(zcmscexp.datetrx||' '||substr(timetrx,1,2)||':'||substr(timetrx,3,2)||':'||substr(timetrx,5,2) as timestamp) as card_action_date_time,
+	cast(zcmscexp.userid as text) as user_id
+from (
+	select 
+	batch_date,
+	cardnumber,
+	cardnumberencrpty,
+	eventtype,
+	userid,
+	case when length(datetrx)=1 then '1900-01-01' else '20'||substr(datetrx,2,2)||'-'||substr(datetrx,4,2)||'-'||substr(datetrx,6,2) end datetrx,
+	case 
+		when length(timetrx)=1 then concat('00000',timetrx) 
+		when length(timetrx)=2 then concat('0000',timetrx)
+		when length(timetrx)=3 then concat('000',timetrx)	
+		when length(timetrx)=4 then concat('00',timetrx)	
+		when length(timetrx)=5 then concat('0',timetrx)	
+		when length(timetrx)=6 then timetrx	
+		else '000000'
+	end as timetrx
+	from landing.itm_zcmscexp
+	) zcmscexp
+left join landing.itm_zcmschxp zcmschxp on zcmscexp.cardnumber =zcmschxp.cardnumber
+query finished 
+run query : truncate table ods.loan_account
+query finished 
+run query : insert into ods.loan_account
+(business_date,source_system_code,account_identifier,account_number,customer_identifier,crn_number,customer_name,branch_code,branch_code_description,account_type_code,account_type_description,account_subproduct_code,account_subproduct_description,account_status_flag,account_status_description,loan_start_date,agreement_date,maturity_date,original_currency_code,drawdown_account,disbursed_amount,total_interest_amount,outstanding_balance_amount,interest_calculation_basis_code,interest_type_code,interest_rate,new_interest_rate,principal_loan_account,interest_loan_account,increase_amount,restructure_date,economic_sector_code,department_code,officer_id,other_officer_id,inputter,authorizer)
+select
+cast(ld.batch_date as date) as business_date,
+cast('BSS' as text) as source_system_code,
+cast(ld.id as varchar(50)) as account_identifier,
+cast(ld.customer_id||'.000'||ld.limit_reference as varchar(50)) as account_number,
+cast(ld.customer_id as varchar(50)) as customer_identifier,
+cast('' as varchar(50)) as crn_number,
+cast(customer.name_1 as varchar(255)) as customer_name,
+cast(ld.co_code as varchar(50)) as branch_code,
+cast(company.company_name as varchar(255)) as branch_code_description,
+cast(ld.category as varchar(50)) as account_type_code,
+cast(category.description as varchar(50)) as account_type_description,
+cast(ld.sub_product as varchar(50)) as account_subproduct_code,
+cast(ld_sub_product.description as varchar(50)) as account_subproduct_description,
+cast(ld.overdue_status as varchar(1)) as account_status_flag,
+cast(case when ld.amount = '0' and cast(case when ld.fin_mat_date ='' then null else ld.fin_mat_date end as date) <= cast(ld.batch_date as date) then 'PAIDOFF' else case when UPPER(ld.overdue_status)='FWOF' then 'WRITEOFF' else 'ACTIVE' end end as varchar(50)) as account_status_description,
+cast(case when ld.value_date = '' then null else ld.value_date end as date) as loan_start_date,
+cast(case when ld.agreement_date = '' then null else ld.agreement_date  end as date) as agreement_date,
+cast(case when ld.fin_mat_date = '' then null else ld.fin_mat_date end as date) as maturity_date,
+cast(ld.currency as varchar(3)) as original_currency_code,
+cast(ld.drawdown_account as varchar(50)) as drawdown_account,
+cast(case when ld.drawdown_net_amt ='' then '0' else ld.drawdown_net_amt end as decimal(16,2)) as disbursed_amount,
+cast(case when ld.tot_interest_amt ='' then '0' else ld.tot_interest_amt end as decimal(16,2)) as total_interest_amount,
+cast(case when ld.amount ='' then '0' else ld.amount end as decimal(16,2)) as outstanding_balance_amount,
+cast(ld.interest_basis as varchar(5)) as interest_calculation_basis_code,
+cast(ld.int_rate_type as varchar(5)) as interest_type_code,
+cast(case when ld.interest_rate ='' then '0' else ld.interest_rate end as decimal(13,7)) as interest_rate,
+cast(case when ld.new_int_rate ='' then '0' else ld.new_int_rate end as decimal(13,7)) as new_interest_rate,
+cast(case when ld.prin_liq_acct ='' then '0' else ld.prin_liq_acct end as varchar(50)) as principal_loan_account,
+cast(case when ld.int_liq_acct = '' then '0' else ld.int_liq_acct end as varchar(50)) as interest_loan_account,
+cast(case when ld.amount_increase='' then '0' else ld.amount_increase end as decimal(16,2)) as increase_amount,
+cast(case when ld.ld_restruct_dt='' then null else ld.ld_restruct_dt end as date) as restructure_date,
+cast(ld.sector as varchar(50)) as economic_sector_code,
+cast(ld.dept_code as varchar(50)) as department_code,
+cast(ld.mis_acct_officer as varchar(50)) as officer_id,
+cast(ld.oth_ac_officer as varchar(50)) as other_officer_id,
+cast(ld.inputter as varchar(50)) as inputter,
+cast(ld.authoriser as varchar(50)) as authorizer
+from landing.bss_ld ld
+left join landing.bss_customer customer on ld.customer_id = customer.id
+left join landing.bss_company company on ld.co_code = company.id
+left join landing.bss_category category on ld.category = category.id
+left join landing.bss_ld_sub_product ld_sub_product on ld.sub_product = ld_sub_product.id
+query finished 
+run query : truncate table ods.deposit_account
+query finished 
+run query : insert into ods.deposit_account
+(business_date,source_system_code,account_number,customer_identifier,crn_number,account_customer_name,account_branch_code,account_branch_code_description,account_type_code,account_type_description,account_status,contract_number,account_open_date,contract_date,account_closed_date,maturity_date,account_start_date,deposit_period_code,deposit_period_description,tenor_period,aro_indicator,aro_indicator_description,original_currency_code,original_deposit_amount,current_deposit_amount,interest_day_basis_code,interest_rate_code,interest_rate,total_interest_amount,last_rollover_date,next_rollover_date,next_interest_payment_amount,tax_rate,principal_credit_account_number_text,interest_credit_account_number_text,joint_account_flag,schedule_date,officer_id,inputter,authorizer,record_last_update_date)
+select
+cast(account.batch_date as date) as business_date,
+cast('BSS' as text) as source_system_code,
+cast(account.id as varchar(50)) as account_number,
+cast(account.customer_no as varchar(50)) as customer_identifier,
+cast(null as varchar(50)) as crn_number,
+cast(account.account_title_1 as varchar(255)) as account_customer_name,
+cast(account.co_code as varchar(50)) as account_branch_code,
+cast(company.company_name as varchar(255)) as account_branch_code_description,
+cast(account.category as varchar(50)) as account_type_code,
+cast(category.description as varchar(50)) as account_type_description,
+cast(case when account_closure.id is not null then 'C' else 'A' end as varchar(10)) as account_status,
+cast(account.arrangement_id as varchar(50)) as contract_number,
+cast(nullif(account.opening_date,'') as date) as account_open_date,
+cast(null as date) as contract_date, 
+cast(nullif(account_closure.capital_date,'') as date) as account_closed_date,
+cast(null as date) as maturity_date,
+cast(null as date) as account_start_date,
+cast(null as varchar(2)) as deposit_period_code,
+cast(null as varchar(50)) as deposit_period_description,
+cast(null as varchar(5)) as tenor_period,
+cast(null as varchar(1)) as aro_indicator,
+cast(null as varchar(50)) as aro_indicator_description,
+cast(account.currency as varchar(3)) as original_currency_code,
+cast(null as decimal(162)) as original_deposit_amount,
+cast(nullif(account.online_actual_bal,'') as decimal(16,2)) as current_deposit_amount,
+cast(null as varchar(10)) as interest_day_basis_code,
+cast(null as varchar(10)) as interest_rate_code,
+cast(null as decimal(13,7)) as interest_rate,
+cast(null as decimal(16,2)) as total_interest_amount,
+cast(null as date) as last_rollover_date,
+cast(null as date) as next_rollover_date,
+cast(null as decimal(16,2)) as next_interest_payment_amount,
+cast(null as decimal(13,7)) as tax_rate,
+cast(null as varchar(50)) as principal_credit_account_number_text,
+cast(null as varchar(50)) as interest_credit_account_number_text,
+cast(case when (nullif(account.joint_holder,'') is not null) then 'Y' else 'N' end as varchar(1)) as joint_account_flag,
+cast(null as date) as schedule_date,
+cast(account.account_officer as varchar(50)) as officer_id,
+cast(account.inputter as varchar(50)) as inputter,
+cast(account.authoriser as varchar(50)) as authorizer,
+cast(nullif(account.date_last_update,'') as timestamp) as record_last_update_date
+from landing.bss_account account
+left join landing.bss_company company on account.co_code = company.id
+left join landing.bss_category category on account.category = category.id
+left join landing.bss_account_closure account_closure on account.id = account_closure.id
+where length(account.category)=4 and (left(account.category,2) between '66' and '69')
+query finished 
+run query : truncate table delivery.fms_onefcc_customer_individual
+query finished 
+run query : insert into delivery.fms_onefcc_customer_individual 
+(customer_id,customer_name,customer_cif,email_address,customer_source,fk_customer_type_code,risk_status,customer_status,fk_id_type_code,id_number,full_name,nick_name,gender,date_of_birth,place_of_birth,marital_status,employer_name,job_title,occupation,industry,source_of_funds,purpose_of_accounts,monthly_income_range_from,monthly_income_range_to,monthly_expenses_category,customer_start_date,branch_id,customer_relationship_manager,date_of_list_due_diligence,tax_number,is_pep,citizenship,mother_maiden_name,cash_deposit_limit,cash_deposit_frequency,non_cash_limit,non_cash_limit_frequency,cash_withdraw_limit,cash_withdraw_frequency,non_cash_withdraw,non_cash_frequency)
+select
+	cast(customer.customer_identifier as varchar(100)) as customer_id,
+	cast(customer.customer_full_name as varchar(500)) as customer_name,
+	cast(customer.customer_identifier as varchar(100)) as customer_cif,
+	cast(customer.email_address as varchar(250)) as email_address,
+	cast(customer.source_system_code as varchar(500)) as customer_source,
+	cast(case when customer.origin_country_code ='ID' then '1' else '2' end as varchar(100)) as fk_customer_type_code,
+	cast(customer.customer_manual_risk_class as varchar(100)) as risk_status,
+	cast(null as varchar(100)) as customer_status,
+	cast(customer.identification_type_code as varchar(100)) as fk_id_type_code,
+	cast(customer.identification_number as varchar(100)) as id_number,
+	cast(customer.customer_full_name as varchar(250)) as full_name,
+	cast(customer.customer_short_name as varchar(100)) as nick_name,
+	cast(customer.gender as varchar(50)) as gender,
+	cast(customer.date_of_birth as timestamp) as date_of_birth,
+	cast(customer.place_of_birth as varchar(100)) as place_of_birth,
+	cast(customer.marital_status as varchar(50)) as marital_status,
+	cast(customer.office_name as varchar(250)) as employer_name,
+	cast(customer.job_title as varchar(250)) as job_title,
+	cast(null as varchar(250)) as occupation,
+	cast(null as varchar(250)) as industry,
+	cast(customer.source_of_fund_type_code as varchar(250)) as source_of_funds,
+	cast(customer.opening_purpose_type_code as varchar(250)) as purpose_of_accounts,
+	cast(
+		CASE
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '01' THEN 0
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '02' THEN 25000001
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '03' THEN 50000001
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '04' THEN 100000001
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '05' THEN 500000001
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '06' THEN 1000000001
+		ELSE 0 
+		END as numeric(28,2)
+	) as monthly_income_range_from,
+	cast(
+		CASE
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '01' THEN 25000000
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '02' THEN 50000000
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '03' THEN 100000000
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '04' THEN 500000000
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '05' THEN 1000000000
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '06' THEN 9999999999999999
+		ELSE 0 
+		END as numeric(28,2)
+	) as monthly_income_range_to,
+	cast(customer.net_outcome_amount as varchar(250)) as monthly_expenses_category,
+	cast(customer.customer_open_date as date) as customer_start_date,
+	cast(customer.customer_branch_code as varchar(100)) as branch_id,
+	cast(customer.officer_id as varchar(100)) as customer_relationship_manager,
+	cast(customer.customer_open_date as date) as date_of_list_due_diligence,
+	cast(customer.npwp_number as varchar(100)) as tax_number,
+	cast(case when customer.pep_flag = 'Y' then TRUE else FALSE end as bool) as is_pep,
+	cast(customer.origin_country_code as varchar(100)) as citizenship,
+	cast(customer.mother_name as varchar(100)) as mother_maiden_name,
+	customer.kyc_cash_deposit_limit as cash_deposit_limit,
+	customer.kyc_cash_deposit_frequency as cash_deposit_frequency,
+	customer.kyc_non_cash_limit as non_cash_limit,
+	customer.kyc_non_cash_limit_frequency as non_cash_limit_frequency,
+	customer.kyc_cash_withdraw_limit as cash_withdraw_limit,
+	customer.kyc_cash_withdraw_frequency as cash_withdraw_frequency,
+	customer.kyc_non_cash_withdraw as non_cash_withdraw,
+	customer.kyc_non_cash_frequency as non_cash_frequency
+from ods.customer customer
+where customer.customer_type_code = '01'
+query finished 
+run query : truncate table delivery.fms_onefcc_customer_corporate
+query finished 
+run query : insert into delivery.fms_onefcc_customer_corporate 
+(customer_id,customer_cif,fk_customer_type_code,organisation_id,customer_source,risk_status,customer_status,customer_start_date,branch_id,customer_relationship_manager,date_of_last_due_diligence,tax_number,company_name,rating_instituition,rating_instituition_code,external_rating,external_rating_code,internal_rating,internal_rating_code,rating_date,source_of_funds,organisation_type,monthly_income_range_from,monthly_income_range_to,company_yearly_turnover,company_yearly_credit_transaction,company_roles,shareholder_list,management_list,authorized_signer_list,cash_deposit_limit,cash_deposit_frequency,non_cash_limit,non_cash_limit_frequency,cash_withdraw_limit,cash_withdraw_frequency,non_cash_withdraw,non_cash_frequency)
+select
+	cast(customer.customer_identifier as varchar(100)) as customer_id,
+	cast(customer.customer_identifier as varchar(100)) as customer_cif,
+	cast(case when customer.origin_country_code ='ID' then '3' else '4' end as varchar(100)) as fk_customer_type_code,
+	cast(null as varchar(100)) as organisation_id,
+	cast(customer.source_system_code as varchar(500)) as customer_source,
+	cast(customer.customer_manual_risk_class as varchar(100)) as risk_status,
+	cast(customer.customer_type as varchar(100)) as customer_status,
+	cast(customer.customer_open_date as date) as customer_start_date,
+	cast(customer.customer_branch_code as varchar(100)) as branch_id,
+	cast(customer.officer_id as varchar(100)) as customer_relationship_manager,
+	cast(null as date) as date_of_last_due_diligence,
+	cast(customer.npwp_number as varchar(100)) as tax_number,
+	cast(customer.customer_full_name as varchar(100)) as company_name,
+	cast(null as varchar(100)) as rating_instituition,
+	cast(customer.rating_institution_code as varchar(100)) as rating_instituition_code,
+	cast(null as varchar(100)) as external_rating,
+	cast(customer.customer_rating_code as varchar(100)) as external_rating_code,
+	cast(null as varchar(100)) as internal_rating,
+	cast(customer.customer_rating_code as varchar(100)) as internal_rating_code,
+	cast(customer.rating_date as date) as rating_date,
+	cast(customer.source_of_fund_type_code as varchar(250)) as source_of_funds,
+	cast(null as varchar(100)) as organisation_type,
+	cast(
+		CASE
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '01' THEN 0
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '02' THEN 25000001
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '03' THEN 50000001
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '04' THEN 100000001
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '05' THEN 500000001
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '06' THEN 1000000001
+		ELSE 0 
+		END as numeric(28,2)
+	) as monthly_income_range_from,
+	cast(
+		CASE
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '01' THEN 25000000
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '02' THEN 50000000
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '03' THEN 100000000
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '04' THEN 500000000
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '05' THEN 1000000000
+		WHEN NET_INCOME_AMOUNT_TYPE_CODE = '06' THEN 9999999999999999
+		ELSE 0 
+		END as numeric(28,2)
+	) as monthly_income_range_to,
+	cast(null as numeric(28,2)) as company_yearly_turnover,
+	cast(null as numeric(28,2)) as company_yearly_credit_transaction,
+	cast(null as text) as company_roles,
+	cast(null as text) as shareholder_list,
+	cast(null as text) as management_list,
+	cast(customer.authorizer as text) as authorized_signer_list,
+	customer.kyc_cash_deposit_limit as cash_deposit_limit,
+	customer.kyc_cash_deposit_frequency as cash_deposit_frequency,
+	customer.kyc_non_cash_limit as non_cash_limit,
+	customer.kyc_non_cash_limit_frequency as non_cash_limit_frequency,
+	customer.kyc_cash_withdraw_limit as cash_withdraw_limit,
+	customer.kyc_cash_withdraw_frequency as cash_withdraw_frequency,
+	customer.kyc_non_cash_withdraw as non_cash_withdraw,
+	customer.kyc_non_cash_frequency as non_cash_frequency
+from ods.customer customer
+where customer.customer_type_code = '02'
+query finished 
+run query : truncate table delivery.fms_onefcc_customer_address
+query finished 
+run query : insert into delivery.fms_onefcc_customer_address 
+(fk_customer_id_code,fk_address_type_code,city,country,province,district,sub_district,postal_code,building_type,dati,address,fk_customer_cif)
+select
+	cast(customer.customer_identifier as varchar(100)) as fk_customer_id_code, 
+	cast(customer.residential_status_code as varchar(100)) as fk_address_type_code, 
+	cast(customer.prime_address_city_text as varchar(100)) as city, 
+	cast(customer.prime_address_country_code as varchar(100)) as country, 
+	cast(customer.prime_address_province_text as varchar(100)) as province, 
+	cast(customer.prime_address_kelurahan_text as varchar(100)) as district, 
+	cast(customer.prime_address_kecamatan_text as varchar(100)) as sub_district, 
+	cast(customer.prime_address_postal_code as varchar(100)) as postal_code, 
+	cast(null as varchar(100)) as building_type, 
+	cast(customer.prime_address_dati2_text as varchar(100)) as dati, 
+	cast(customer.prime_address_street_name as text) as address, 
+	cast(customer.customer_identifier as varchar(100)) as fk_customer_cif
+from ods.customer
+query finished 
+run query : truncate table delivery.fms_onefcc_customer_phone
+query finished 
+run query : insert into delivery.fms_onefcc_customer_phone 
+(fk_customer_id_code,phone_number,fk_phone_type_code,phone_verified,primary_phone_number,fk_customer_cif)
+select distinct * from (
+select
+	cast(customer.customer_identifier as varchar(100)) as fk_customer_id_code,
+	cast(customer.home_phone_number as varchar(100)) as phone_number,
+	cast(null as varchar(100)) as fk_phone_type_code,
+	cast(case when length(regexp_replace(customer.home_phone_number,'[^0-9]+','','g')) >5 then 1 else 0 end as int) as phone_verified,
+	cast(null as int) as primary_phone_number,
+	cast(customer.customer_identifier as varchar(100)) as fk_customer_cif
+from ods.customer
+where customer.home_phone_number <> '' and customer.home_phone_number <> '|'
+
+union all
+
+select
+	cast(customer.customer_identifier as varchar(100)) as fk_customer_id_code,
+	cast(customer.mobile_phone_number as varchar(100)) as phone_number,
+	cast(null as varchar(100)) as fk_phone_type_code,
+	cast(case when length(regexp_replace(customer.mobile_phone_number,'[^0-9]+','','g')) >5 then 1 else 0 end as int) as phone_verified,
+	cast(null as int) as primary_phone_number,
+	cast(customer.customer_identifier as varchar(100)) as fk_customer_cif
+from ods.customer
+where customer.mobile_phone_number  <> '' and customer.mobile_phone_number  <> '|'
+) as x
+query finished 
+run query : truncate table delivery.fms_stg_transaction_batch
+query finished 
+run query : insert into delivery.fms_stg_transaction_batch
+(transaction_id,date_last_account_maintenance,customer_cif,customer_id,source_cif,source_account_number,source_bank_name,beneficiary_cif,beneficiary_account_name,beneficiary_bank_name,beneficiary_account_number,transaction_date,transaction_datetime,posting_datetime,transaction_location,currency_code,total_balance,channel_id,transaction_reference,debit_credit_flag,gl_account_number,gl_description,device_id,device_model,device_os,device_location_latitude,device_location_longitude,ip_address,account_type,transaction_amount,transaction_code,transaction_category,note,transfer_id,source_account_name,transaction_status,data_source,feature_code,feature_name,acquiring_id,card_number,cardholder_billing_amount,cardholder_billing_fee_amount,conversion_rate_settlement,conversion_rate_cardholder_billing,merchant_name,merchant_category_code,merchant_id,pos_entry_mode,pos_condition_mode,pos_pin_capture,reference_retrieval_number,service_code,terminal_id,transaction_amount_local,transaction_date_settlement,settlement_amount,transaction_city,transaction_country,username,origin,terminal_location,response_code,acquire_bank_code,handphone_no)
+select
+	cast(transaction.transaction_identifier as varchar(1000)) as transaction_id, 
+	cast(casa_account.record_last_update_date as timestamp) as date_last_account_maintenance, 
+	cast(transaction.customer_identifier as varchar(100)) as customer_cif, 
+	cast(transaction.customer_identifier as varchar(100)) as customer_id, 
+	cast(transaction.customer_identifier as varchar(100)) as source_cif, 
+	cast(transaction.ordering_account_text as varchar(100)) as source_account_number, 
+	cast(null as varchar(250)) as source_bank_name, 
+	cast(transaction.customer_identifier as varchar(100)) as beneficiary_cif, 
+	cast(transaction.beneficiary_account_name as varchar(250)) as beneficiary_account_name, 
+	cast(null as varchar(250)) as beneficiary_bank_name, 
+	cast(transaction.beneficiary_account_text as varchar(100)) as beneficiary_account_number, 
+	cast(transaction.transaction_timestamp as date) as transaction_date, 
+	cast(transaction.transaction_timestamp as timestamp) as transaction_datetime, 
+	cast(transaction.posting_date as timestamp) as posting_datetime, 
+	cast(transaction.transaction_branch_code as varchar(1000)) as transaction_location, 
+	cast(transaction.currency_code as varchar(100)) as currency_code, 
+	cast(casa_account.available_balance_amount as numeric(16,2)) as total_balance, 
+	cast(null as varchar(100)) as channel_id, 
+	cast(transaction.reference_number as varchar(100)) as transaction_reference, 
+	cast(transaction.transaction_sign_code as varchar(100)) as debit_credit_flag, 
+	cast(transaction.journal_key_code as varchar(100)) as gl_account_number, 
+	cast(null as varchar(1000)) as gl_description, 
+	cast(null as varchar(100)) as device_id, 
+	cast(null as text) as device_model, 
+	cast(null as text) as device_os, 
+	cast(null as varchar(1000)) as device_location_latitude, 
+	cast(null as text) as device_location_longitude, 
+	cast(null as varchar(100)) as ip_address, 
+	cast(null as varchar(250)) as account_type, 
+	cast(transaction.transaction_amount as numeric(28,2)) as transaction_amount, 
+	cast(transaction.transaction_code as varchar(100)) as transaction_code, 
+	cast(transaction.transaction_description as varchar(100)) as transaction_category, 
+	cast(transaction.transaction_narrative1_text as varchar(8000)) as note, 
+	cast(null as varchar(100)) as transfer_id, 
+	cast(transaction.ordering_account_text as varchar(255)) as source_account_name, 
+	cast(null as varchar(50)) as transaction_status, 
+	cast(transaction.source_system_code as varchar(100)) as data_source, 
+	cast(null as varchar(100)) as feature_code, 
+	cast(null as varchar(100)) as feature_name, 
+	cast(null as varchar(100)) as acquiring_id, 
+	cast(null as varchar(100)) as card_number, 
+	cast(null as numeric(28,2)) as cardholder_billing_amount, 
+	cast(null as numeric(28,2)) as cardholder_billing_fee_amount, 
+	cast(null as float8) as conversion_rate_settlement, 
+	cast(null as float8) as conversion_rate_cardholder_billing, 
+	cast(null as varchar(100)) as merchant_name, 
+	cast(null as varchar(100)) as merchant_category_code, 
+	cast(null as varchar(100)) as merchant_id, 
+	cast(null as varchar(100)) as pos_entry_mode, 
+	cast(null as varchar(100)) as pos_condition_mode, 
+	cast(null as varchar(100)) as pos_pin_capture, 
+	cast(null as varchar(100)) as reference_retrieval_number, 
+	cast(null as varchar(100)) as service_code, 
+	cast(null as varchar(100)) as terminal_id, 
+	cast(transaction.transaction_amount_equivalent_idr as numeric(28,2)) as transaction_amount_local, 
+	cast(null as date) as transaction_date_settlement, 
+	cast(null as numeric(28,2)) as settlement_amount, 
+	cast(null as varchar(100)) as transaction_city, 
+	cast(null as varchar(100)) as transaction_country, 
+	cast(null as text) as username, 
+	cast(null as text) as origin, 
+	cast(null as text) as terminal_location, 
+	cast(null as text) as response_code, 
+	cast(null as text) as acquire_bank_code,
+	cast(transaction.transaction_device_phone_number as text) as handphone_no
+from ods.transaction
+left join ods.casa_account on transaction.account_number = casa_account.account_number
+query finished 
+run query : truncate table delivery.fms_onefcc_card
+query finished 
+run query : insert into delivery.fms_onefcc_card 
+(fk_customer_cif_code,fk_customer_id_code,card_number,activated_timestamp,expiration_timestamp,closed_timestamp,card_block_code_status,card_block_code_date,card_type,linked_account_numbers,card_block_code_status_history,card_block_code_status_history_status,card_block_code_status_history_start_date,card_name,withdrawal_limit,daily_withdrawal_limit,pos_transaction_limit,daily_pos_transaction_limit,ecommerce_transaction_limit_amount,ecommerce_daily_limit_amount,contactless_daily_limit_amount,contactless_transaction_limit_amount,atm_transfer_daily_limit_amount,is_ecommerce_limit_active,is_contactless_limit_active,is_withdrawal_limit_active,is_international_payment_active,card_id)
+select
+	card_profile.customer_identifier as fk_customer_cif_code,
+	card_profile.customer_identifier as fk_customer_id_code,
+	card_profile.card_number as card_number,
+	card_profile.issued_card_timestamp as activated_timestamp,
+	card_profile.expiration_card_timestamp as expiration_timestamp,
+	card_profile.closed_card_timestamp as closed_timestamp,
+	card_profile.card_block_code_status as card_block_code_status,
+	card_profile.card_block_code_date as card_block_code_date,
+	card_profile.card_type as card_type,
+	card_profile.account_number as linked_account_numbers,
+	card_profile.card_block_code_status_history as card_block_code_status_history,
+	card_profile.card_block_code_status_history_status as card_block_code_status_history_status,
+	card_profile.card_block_code_status_history_start_date as card_block_code_status_history_start_date,
+	card_profile.card_name as card_name,
+	card_profile.withdrawal_limit as withdrawal_limit,
+	card_profile.daily_withdrawal_limit as daily_withdrawal_limit,
+	card_profile.pos_transaction_limit as pos_transaction_limit,
+	card_profile.daily_pos_transaction_limit as daily_pos_transaction_limit,
+	card_profile.ecommerce_transaction_limit_amount as ecommerce_transaction_limit_amount,
+	card_profile.ecommerce_daily_limit_amount as ecommerce_daily_limit_amount,
+	card_profile.contactless_daily_limit_amount as contactless_daily_limit_amount,
+	card_profile.contactless_transaction_limit_amount as contactless_transaction_limit_amount,
+	card_profile.atm_transfer_daily_limit_amount as atm_transfer_daily_limit_amount,
+	cast(card_profile.is_ecommerce_limit_active as boolean) as is_ecommerce_limit_active,
+	cast(card_profile.is_contactless_limit_active as boolean) as is_contactless_limit_active,
+	cast(card_profile.is_withdrawal_limit_active as boolean) as is_withdrawal_limit_active,
+	cast(card_profile.is_international_payment_active as boolean) as is_international_payment_active,
+	card_profile.card_id as card_id
+from ods.card_profile
+query finished 
+run query : truncate table delivery.fms_onefcc_card_history
+query finished 
+run query : insert into delivery.fms_onefcc_card_history 
+(fk_customer_cif_code,fk_customer_id_code,card_number,card_history_status,card_history_sequence_status,card_history_start_time)
+select
+	card_log.customer_identifier as fk_customer_cif_code,
+	card_log.customer_identifier as fk_customer_id_code,
+	card_log.card_number as card_number,
+	card_log.card_action_type_code as card_history_status,
+	null as card_history_sequence_status,
+	card_log.card_action_date_time as card_history_start_time
+from ods.card_log
+query finished 
+run query : truncate table delivery.fms_onefcc_loan_account
+query finished 
+run query : insert into delivery.fms_onefcc_loan_account 
+(fk_customer_cif_code,fk_customer_id_code,account_type,account_number,currency,status,date_last_account_maintenance,started_at,closed_at,loan_name,loan_amount,interest_rate,interest_charge_frequence,approved_datetime)
+select
+	loan_account.customer_identifier as fk_customer_cif_code,
+	loan_account.customer_identifier as fk_customer_id_code,
+	loan_account.account_type_description as account_type,
+	loan_account.account_identifier as account_number,
+	loan_account.original_currency_code as currency,
+	loan_account.account_status_description as status,
+	null as date_last_account_maintenance,
+	loan_account.loan_start_date as started_at,
+	loan_account.maturity_date as closed_at,
+	loan_account.account_subproduct_description as loan_name,
+	loan_account.disbursed_amount as loan_amount,
+	loan_account.interest_rate as interest_rate,
+	null as interest_charge_frequence,
+	loan_account.agreement_date as approved_datetime
+from ods.loan_account loan_account
+query finished 
+run query : truncate table delivery.fms_onefcc_loan_account_transaction
+query finished 
+run query : insert into delivery.fms_onefcc_loan_account_transaction (
+loan_transaction_id,loan_account_id,transaction_code,posting_timestamp,value_timestamp,branch,debit_credit_flag,amount,original_currency_code,related_account_number,notes,reference,fk_case_management_type_code,customer_id)
+select
+	transaction.transaction_identifier as loan_transaction_id,
+	loan_account.account_number as loan_account_id,
+	transaction.transaction_code as transaction_code,
+	transaction.posting_date as posting_timestamp,
+	transaction.value_date as value_timestamp,
+	transaction.account_branch_code as branch,
+	transaction.transaction_sign_code as debit_credit_flag,
+	transaction.transaction_amount_equivalent_idr as amount,
+	transaction.currency_code as original_currency_code,
+	transaction.account_number as related_account_number,
+	transaction.transaction_narrative1_text as notes,
+	transaction.reference_number as reference,
+	null as fk_case_management_type_code,
+	transaction.customer_identifier as customer_id
+from ods.transaction transaction
+inner join ods.loan_account loan_account on transaction.reference_number = loan_account.account_identifier
+query finished 
+run query : truncate table delivery.fms_onefcc_saving_account
+query finished 
+run query : insert into delivery.fms_onefcc_saving_account 
+(fk_customer_cif_code,fk_customer_id_code,account_number,status,date_last_account_maintenance,account_currency,account_open_timestamp,account_activation_timestamp,account_closed_timestamp,savings_account_type,parent_account_number,account_category,is_shared_account,account_holder_name,savings_account_source,savings_accounts_deleted)
+select
+	casa_account.customer_identifier as fk_customer_cif_code,
+	casa_account.customer_identifier as fk_customer_id_code,
+	casa_account.account_number as account_number,
+	case when casa_account.account_status='A' then 'ACTIVE' when casa_account.account_status='C' then 'CLOSE' end as status,
+	casa_account.last_maintenance_date as date_last_account_maintenance,
+	casa_account.original_currency_code as account_currency,
+	casa_account.account_open_date as account_open_timestamp,
+	casa_account.account_open_date as account_activation_timestamp,
+	casa_account.account_close_date as account_closed_timestamp,
+	casa_account.account_type_description as savings_account_type,
+	null as parent_account_number,
+	case
+	when cast(left(casa_account.account_type_code,2) as int) between 60 and 62 then 'SA' 
+	when cast(left(casa_account.account_type_code,2) as int) between 10 and 12 then 'CA'
+	end as account_category,
+	cast(case when casa_account.joint_account_flag='Y' then true else false end as bool) as is_shared_account,
+	casa_account.account_customer_name as account_holder_name,
+	customer.source_of_fund_type_code as savings_account_source,
+	cast(case when casa_account.account_status = 'C' then true else false end as bool) as savings_accounts_deleted
+from ods.casa_account
+left join ods.customer on casa_account.customer_identifier = customer.customer_identifier
+union all
+select
+	deposit_account.customer_identifier as fk_customer_cif_code,
+	deposit_account.customer_identifier as fk_customer_id_code,
+	deposit_account.account_number as account_number,
+	case when deposit_account.account_status='A' then 'ACTIVE' when deposit_account.account_status='C' then 'CLOSE' end as status,
+	deposit_account.record_last_update_date as date_last_account_maintenance,
+	deposit_account.original_currency_code as account_currency,
+	deposit_account.account_open_date as account_open_timestamp,
+	deposit_account.account_open_date as account_activation_timestamp,
+	deposit_account.account_closed_date as account_closed_timestamp,
+	deposit_account.account_type_description as savings_account_type,
+	null as parent_account_number,
+	'TD' as account_category,
+	cast(case when deposit_account.joint_account_flag='Y' then true else false end as bool) as is_shared_account,
+	deposit_account.account_customer_name as account_holder_name,
+	customer.source_of_fund_type_code as savings_account_source,
+	cast(case when deposit_account.account_status = 'C' then true else false end as bool) as savings_accounts_deleted
+from ods.deposit_account
+left join ods.customer on deposit_account.customer_identifier = customer.customer_identifier
+query finished 
+run query : truncate table delivery.fms_stg_transaction_batch_status
+query finished 
+run query : insert into delivery.fms_stg_transaction_batch_status
+(data_date)
+select cast(parameter_value as date) data_date from ods.table_parameter
+where parameter_key='batch_date'
+query finished 
+.-------------------------------------------+--------+----------+-------------------.
+|                                      Monitor                                      |
+|=------------------------------------------+--------+----------+------------------=|
+|JOB_NAME                                   |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=------------------------------------------+--------+----------+------------------=|
+|J_DOWNSTREAM_FMS_ONEFCC_CUSTOMER_INDIVIDUAL|98641   |20230731  |2023-10-19 12:35:46|
+'-------------------------------------------+--------+----------+-------------------'
+
+.------------------------------------------+--------+----------+-------------------.
+|                                     Monitor                                      |
+|=-----------------------------------------+--------+----------+------------------=|
+|JOB_NAME                                  |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-----------------------------------------+--------+----------+------------------=|
+|J_DOWNSTREAM_FMS_ONEFCC_CUSTOMER_CORPORATE|2979    |20230731  |2023-10-19 12:35:48|
+'------------------------------------------+--------+----------+-------------------'
+
+.----------------------------------------+--------+----------+-------------------.
+|                                    Monitor                                     |
+|=---------------------------------------+--------+----------+------------------=|
+|JOB_NAME                                |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=---------------------------------------+--------+----------+------------------=|
+|J_DOWNSTREAM_FMS_ONEFCC_CUSTOMER_ADDRESS|101620  |20230731  |2023-10-19 12:36:01|
+'----------------------------------------+--------+----------+-------------------'
+
+.--------------------------------------+--------+----------+-------------------.
+|                                   Monitor                                    |
+|=-------------------------------------+--------+----------+------------------=|
+|JOB_NAME                              |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-------------------------------------+--------+----------+------------------=|
+|J_DOWNSTREAM_FMS_ONEFCC_CUSTOMER_PHONE|152300  |20230731  |2023-10-19 12:36:39|
+'--------------------------------------+--------+----------+-------------------'
+
+.-------------------------+--------+----------+-------------------.
+|                             Monitor                             |
+|=------------------------+--------+----------+------------------=|
+|JOB_NAME                 |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=------------------------+--------+----------+------------------=|
+|J_DOWNSTREAM_FMS_STG_CARD|820836  |20230731  |2023-10-19 12:38:19|
+'-------------------------+--------+----------+-------------------'
+
+.------------------------------------+--------+----------+-------------------.
+|                                  Monitor                                   |
+|=-----------------------------------+--------+----------+------------------=|
+|JOB_NAME                            |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-----------------------------------+--------+----------+------------------=|
+|J_DOWNSTREAM_FMS_ONEFCC_LOAN_ACCOUNT|7587    |20230731  |2023-10-19 12:38:23|
+'------------------------------------+--------+----------+-------------------'
+
+.------------------------------------------------+--------+----------+-------------------.
+|                                        Monitor                                         |
+|=-----------------------------------------------+--------+----------+------------------=|
+|JOB_NAME                                        |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-----------------------------------------------+--------+----------+------------------=|
+|J_DOWNSTREAM_FMS_ONEFCC_LOAN_ACCOUNT_TRANSACTION|119     |20230731  |2023-10-19 12:38:27|
+'------------------------------------------------+--------+----------+-------------------'
+
+.--------------------------------------+--------+----------+-------------------.
+|                                   Monitor                                    |
+|=-------------------------------------+--------+----------+------------------=|
+|JOB_NAME                              |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-------------------------------------+--------+----------+------------------=|
+|J_DOWNSTREAM_FMS_ONEFCC_SAVING_ACCOUNT|46050   |20230731  |2023-10-19 12:38:36|
+'--------------------------------------+--------+----------+-------------------'
+
+.---------------------------------+--------+----------+-------------------.
+|                                 Monitor                                 |
+|=--------------------------------+--------+----------+------------------=|
+|JOB_NAME                         |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=--------------------------------+--------+----------+------------------=|
+|J_DOWNSTREAM_FMS_STG_CARD_HISTORY|4736253 |20230731  |2023-10-19 12:43:04|
+'---------------------------------+--------+----------+-------------------'
+
+.--------------------------------------+--------+----------+-------------------.
+|                                   Monitor                                    |
+|=-------------------------------------+--------+----------+------------------=|
+|JOB_NAME                              |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=-------------------------------------+--------+----------+------------------=|
+|J_DOWNSTREAM_FMS_STG_TRANSACTION_BATCH|606934  |20230731  |2023-10-19 12:44:24|
+'--------------------------------------+--------+----------+-------------------'
+
+.---------------------------------------------+--------+----------+-------------------.
+|                                       Monitor                                       |
+|=--------------------------------------------+--------+----------+------------------=|
+|JOB_NAME                                     |ROW_DATA|BATCH_DATE|INSERT_TIME        |
+|=--------------------------------------------+--------+----------+------------------=|
+|J_DOWNSTREAM_FMS_STG_TRANSACTION_BATCH_STATUS|1       |20230731  |2023-10-19 12:44:25|
+'---------------------------------------------+--------+----------+-------------------'
+

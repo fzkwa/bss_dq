@@ -1,0 +1,60 @@
+PRODUCTION ENVI
+
+ODS APPS
+
+IP: 10.195.234.168
+
+ODS DB
+
+IP : 10.195.234.169
+User: postgres
+Password: Sahabat1!
+Port: 5432
+
+ODS DB NRT
+
+IP: 10.195.234.169
+User: fmsmrt
+Password: Sahabat1!
+Port: 5432
+Table: landing.t_log_nrt
+
+FMS DB
+
+IP: 10.195.234.167
+instance=mssqlserver2019
+db : fmsdb_bss
+User: userODS
+Password: P@ssw0rd
+
+T24
+
+IP: 10.195.20.94
+User: sftpodsprod
+Password: ods1234!
+Port: 29
+
+ITM
+
+IP: 10.195.234.12
+User: ODS
+Password: Sahabat1!
+Port: 22
+
+ARO
+IP: 10.195.20.85
+User: bankoper
+Password: B$$oper2023!
+Port: 22
+
+CSC
+IP: 10.195.234.120
+User: ods
+Password: Sahabat2
+Port: 1433
+
+MS_PEPDATA
+IP: 10.195.234.120
+User: pep
+Password: Sahabat3
+Port: 1433

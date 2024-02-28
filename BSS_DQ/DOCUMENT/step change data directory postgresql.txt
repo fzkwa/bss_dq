@@ -1,0 +1,40 @@
+0. backup the database
+
+pg_dump -U postgres db_ods > C:\archive\db_archive\db_ods_backup_yyyyMMdd_mmss.dump
+
+1. check current location data_directory in postgres
+
+show data_directory;
+
+2. stop postgresql services
+
+pg_ctl.exe -D "C:\Program Files\PostgreSQL\13\data" stop
+
+3.  copy old data directory to new data directory (changes the directory based on current server) (make sure permission security set to every one & same with old data directory) 
+
+example: 
+
+old data directory: C:/Program Files/Postgresql/13/data
+new data directory: D:/Postgresql/13/Data
+
+4. change ImagePath in registry editor HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Postgresql
+
+5. change postgressql.conf & save (changes the directory based on current server)
+
+#data_directory = 'ConfigDir'		# use data in another directory
+data_directory = 'C:\\Postgresql\\Data'		# use data in another directory
+					# (change requires restart)
+#hba_file = 'ConfigDir/pg_hba.conf'	# host-based authentication file
+hba_file = 'C:\\Postgresql\\Data\\pg_hba.conf'	# host-based authentication file
+					# (change requires restart)
+#ident_file = 'ConfigDir/pg_ident.conf'	# ident configuration file
+ident_file = 'C:\\Postgresql\\Data\\pg_ident.conf'	# ident configuration file
+					# (change requires restart)
+
+6. start the services with new data directory (changes the directory based on current server)
+
+pg_ctl.exe -D "D:/Postgresql/13/Data" start
+
+7. make sure the changes applied, check current data directory:
+
+show data_directory;
